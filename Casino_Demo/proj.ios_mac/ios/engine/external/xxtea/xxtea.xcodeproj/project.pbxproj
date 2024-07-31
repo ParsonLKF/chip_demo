@@ -1,0 +1,740 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		3EB409B00B6D478987FF6694 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = F6E1617318874354A3E07120 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				7BD07AAEF4128A63A71539AF /* Generate CMakeFiles/ZERO_CHECK */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		BFCF397A5ED14A6A8C98BAC7 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = E1EF7942946C45E583D9DC39 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				765A2D187B3ADE3A92D05001 /* Generate CMakeFiles/ALL_BUILD */,
+			);
+			dependencies = (
+				5194BA7785D54FF099A39A2B /* PBXTargetDependency */,
+				9CC5420EA33748329652F356 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		5E56BC6344E243B3A33E87BC /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/xxtea/xxtea.cpp */ = {isa = PBXBuildFile; fileRef = 6EE00EA0DD7644E6A5F6C4E9 /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/xxtea/xxtea.cpp */; };
+		B145017DF2FC4DC5B3525C44 /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/xxtea/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 8E6D12C049FA4924A8D3FEAF /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/xxtea/CMakeLists.txt */; };
+		FFDE7F2151854D969A793B75 /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/engine/external/xxtea/CMakeFiles/ext_xxtea.dir/Info.plist */ = {isa = PBXBuildFile; fileRef = 4A02846FBE9849C8ABB299A4 /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/engine/external/xxtea/CMakeFiles/ext_xxtea.dir/Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		0D65F8E82860410D8345D6E7 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		817E2981F6BB4EA79B48AF5C /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		BA7AC2B871B94696995B9407 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		D06128208334472E98EDA924 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		69976BEFF84F4194994CCCA3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B5F0630FDF394949924864DA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3EB409B00B6D478987FF6694;
+			remoteInfo = ZERO_CHECK;
+		};
+		6D3C2399CC6E44ACB534711F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B5F0630FDF394949924864DA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4FF8FFFE771B4AA492199675;
+			remoteInfo = ext_xxtea;
+		};
+		AE0A6CA167DD4EDC94D6F6B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B5F0630FDF394949924864DA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3EB409B00B6D478987FF6694;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4A02846FBE9849C8ABB299A4 /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/engine/external/xxtea/CMakeFiles/ext_xxtea.dir/Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; name = Info.plist; path = /Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/engine/external/xxtea/CMakeFiles/ext_xxtea.dir/Info.plist; sourceTree = "<absolute>"; };
+		6EE00EA0DD7644E6A5F6C4E9 /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/xxtea/xxtea.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = xxtea.cpp; path = xxtea.cpp; sourceTree = SOURCE_ROOT; };
+		8E6D12C049FA4924A8D3FEAF /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/xxtea/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		9FEE4D05766E4E5AA0D03B0B /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/xxtea/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		E4ABA8981A6F4AAAB29877F1 /* ext_xxtea */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libext_xxtea.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D7F3926679B642769B5B673D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01ECADEF8F294E65AA298B42 /* ext_xxtea */ = {
+			isa = PBXGroup;
+			children = (
+				0FD09ACC26D14357BE0351D0 /* Source Files */,
+				178A3B9120154319BFE9B15A /* Resources */,
+				8E6D12C049FA4924A8D3FEAF /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/xxtea/CMakeLists.txt */,
+			);
+			name = ext_xxtea;
+			sourceTree = "<group>";
+		};
+		0FD09ACC26D14357BE0351D0 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				6EE00EA0DD7644E6A5F6C4E9 /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/xxtea/xxtea.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		178A3B9120154319BFE9B15A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4A02846FBE9849C8ABB299A4 /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/engine/external/xxtea/CMakeFiles/ext_xxtea.dir/Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		484AFF47C8704777BE243528 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				DF0F2D4055BA450AB12914B0 /* CMake Rules */,
+				9FEE4D05766E4E5AA0D03B0B /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/xxtea/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		4D6435A845A242AE9C91414C = {
+			isa = PBXGroup;
+			children = (
+				88C16261B58E4E3AAF4196BC /* External */,
+				484AFF47C8704777BE243528 /* ALL_BUILD */,
+				EFFE6ECB828945D499CF2C77 /* Products */,
+				A2AEF5B3103E4FAEAA41C35B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		88C16261B58E4E3AAF4196BC /* External */ = {
+			isa = PBXGroup;
+			children = (
+				01ECADEF8F294E65AA298B42 /* ext_xxtea */,
+			);
+			name = External;
+			sourceTree = "<group>";
+		};
+		A2AEF5B3103E4FAEAA41C35B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DF0F2D4055BA450AB12914B0 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		EFFE6ECB828945D499CF2C77 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E4ABA8981A6F4AAAB29877F1 /* ext_xxtea */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4FF8FFFE771B4AA492199675 /* ext_xxtea */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BBB31CBF2A51482C924CEF2D /* Build configuration list for PBXNativeTarget "ext_xxtea" */;
+			buildPhases = (
+				3BBB5421FDFA42B1ABD8ADA4 /* Sources */,
+				D7F3926679B642769B5B673D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1EE37AFB164847CF97453B1F /* PBXTargetDependency */,
+			);
+			name = ext_xxtea;
+			productName = ext_xxtea;
+			productReference = E4ABA8981A6F4AAAB29877F1 /* ext_xxtea */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B5F0630FDF394949924864DA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1530;
+			};
+			buildConfigurationList = 977F635AAD214D6AB44082FE /* Build configuration list for PBXProject "xxtea" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				BA7AC2B871B94696995B9407 /* Debug */,
+				0D65F8E82860410D8345D6E7 /* Release */,
+				817E2981F6BB4EA79B48AF5C /* MinSizeRel */,
+				D06128208334472E98EDA924 /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 4D6435A845A242AE9C91414C;
+			projectDirPath = /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/xxtea;
+			projectRoot = "";
+			targets = (
+				BFCF397A5ED14A6A8C98BAC7 /* ALL_BUILD */,
+				3EB409B00B6D478987FF6694 /* ZERO_CHECK */,
+				4FF8FFFE771B4AA492199675 /* ext_xxtea */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3C0110FC8322DE7E50886E21 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		765A2D187B3ADE3A92D05001 /* Generate CMakeFiles/ALL_BUILD */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ALL_BUILD";
+			outputPaths = (
+/Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/engine/external/xxtea/CMakeFiles/ALL_BUILD			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/engine/external/xxtea
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/engine/external/xxtea
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/engine/external/xxtea
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/engine/external/xxtea
+  echo Build\\ all\\ projects
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		7BD07AAEF4128A63A71539AF /* Generate CMakeFiles/ZERO_CHECK */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ZERO_CHECK";
+			outputPaths = (
+/Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/engine/external/xxtea/CMakeFiles/ZERO_CHECK			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/engine/external/xxtea
+  make -f /Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/engine/external/xxtea/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/engine/external/xxtea
+  make -f /Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/engine/external/xxtea/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/engine/external/xxtea
+  make -f /Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/engine/external/xxtea/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/engine/external/xxtea
+  make -f /Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/engine/external/xxtea/CMakeScripts/ReRunCMake.make
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		9B50530E35CC49C82C2FACCF = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3BBB5421FDFA42B1ABD8ADA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E56BC6344E243B3A33E87BC /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/xxtea/xxtea.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1EE37AFB164847CF97453B1F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3EB409B00B6D478987FF6694 /* ZERO_CHECK */;
+			targetProxy = 69976BEFF84F4194994CCCA3 /* PBXContainerItemProxy */;
+		};
+		5194BA7785D54FF099A39A2B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4FF8FFFE771B4AA492199675 /* ext_xxtea */;
+			targetProxy = 6D3C2399CC6E44ACB534711F /* PBXContainerItemProxy */;
+		};
+		9CC5420EA33748329652F356 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3EB409B00B6D478987FF6694 /* ZERO_CHECK */;
+			targetProxy = AE0A6CA167DD4EDC94D6F6B7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		02A24C6CBEFA45968BA53B7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/lib/Release;
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/xxtea/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_xxtea;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/build/ext_xxtea.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		1FAC3AD5AFAD4CA8B711B440 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		3467CD4488934EEA8EC284CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		38C0873FBBC241B7ABF752E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		57D06A6EA2DA444E8EB93CDE /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/lib/MinSizeRel;
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/xxtea/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_xxtea;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/build/ext_xxtea.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		87C9C33F417348C89FA8B11C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		89ADDB9952BE4B928D279DD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		91FAEF08B580415B8831D6AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = /Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/build;
+			};
+			name = Release;
+		};
+		939535C63A6A481795E0E39F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SYMROOT = /Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/build;
+			};
+			name = Debug;
+		};
+		9B61E418027E4EEB8E4CC13A /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/lib/RelWithDebInfo;
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/xxtea/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_xxtea;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/build/ext_xxtea.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		B0EBADEF07CD4329B8A1B967 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = /Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/build;
+			};
+			name = MinSizeRel;
+		};
+		B3F8E77459F04E9D8BE8F818 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		B76548A967F24E84BC18CA1F /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		C321F38BEAFE4F4982CC9418 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		D0D818D1C08F45429F33C2D6 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = /Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/build;
+			};
+			name = RelWithDebInfo;
+		};
+		D7A3979F0F7341C4BA55C039 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/lib/Debug;
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/xxtea/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "   '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_xxtea;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/build/ext_xxtea.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		977F635AAD214D6AB44082FE /* Build configuration list for PBXProject "xxtea" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				939535C63A6A481795E0E39F /* Debug */,
+				91FAEF08B580415B8831D6AC /* Release */,
+				B0EBADEF07CD4329B8A1B967 /* MinSizeRel */,
+				D0D818D1C08F45429F33C2D6 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		BBB31CBF2A51482C924CEF2D /* Build configuration list for PBXNativeTarget "ext_xxtea" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7A3979F0F7341C4BA55C039 /* Debug */,
+				02A24C6CBEFA45968BA53B7B /* Release */,
+				57D06A6EA2DA444E8EB93CDE /* MinSizeRel */,
+				9B61E418027E4EEB8E4CC13A /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		E1EF7942946C45E583D9DC39 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87C9C33F417348C89FA8B11C /* Debug */,
+				3467CD4488934EEA8EC284CD /* Release */,
+				1FAC3AD5AFAD4CA8B711B440 /* MinSizeRel */,
+				B3F8E77459F04E9D8BE8F818 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F6E1617318874354A3E07120 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89ADDB9952BE4B928D279DD0 /* Debug */,
+				38C0873FBBC241B7ABF752E0 /* Release */,
+				B76548A967F24E84BC18CA1F /* MinSizeRel */,
+				C321F38BEAFE4F4982CC9418 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B5F0630FDF394949924864DA /* Project object */;
+}

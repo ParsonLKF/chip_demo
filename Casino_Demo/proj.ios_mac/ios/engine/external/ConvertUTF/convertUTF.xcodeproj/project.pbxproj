@@ -1,0 +1,748 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		3EB409B00B6D478987FF6694 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = FFA27A6A3E75478AB1B5F3E7 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				F2A1BC4151F3989136C3BFA7 /* Generate CMakeFiles/ZERO_CHECK */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		BFCF397A5ED14A6A8C98BAC7 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 94E3A116277E4F9AADA95A09 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				318D44E65CF9B3754C2198E3 /* Generate CMakeFiles/ALL_BUILD */,
+			);
+			dependencies = (
+				4F08AE60591C4D0DBCE71A99 /* PBXTargetDependency */,
+				CE22029CE5714FCE9B856139 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		390A6F3D276045AFBEEC4200 /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/ConvertUTF/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = A3B41B8B59D64BFB94E10C8B /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/ConvertUTF/CMakeLists.txt */; };
+		5E96A06B192E42EFA50A6582 /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/engine/external/ConvertUTF/CMakeFiles/ext_convertUTF.dir/Info.plist */ = {isa = PBXBuildFile; fileRef = 86A79F604FDE4B1B9C7B4F4E /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/engine/external/ConvertUTF/CMakeFiles/ext_convertUTF.dir/Info.plist */; };
+		8288CB4F0BFF4D979FF1EC7E /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/ConvertUTF/ConvertUTFWrapper.cpp */ = {isa = PBXBuildFile; fileRef = 1EA0B0C1C2D34BDA98012150 /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/ConvertUTF/ConvertUTFWrapper.cpp */; };
+		98358AE9BE544C988A85A5F0 /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/ConvertUTF/ConvertUTF.c */ = {isa = PBXBuildFile; fileRef = 317F35E98F404FAF9D314E80 /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/ConvertUTF/ConvertUTF.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		0181079DB35447D8932A4FC4 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		1867A7AB774A4C0D83203D71 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		278CF79883F04F949C3ACC33 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		B1031832646B49C6A5192834 /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		7DB5D85725FD4FFF8E54FE29 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 65B1A9C812894408AEA43498 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 708218765A3442A1A519BE8A;
+			remoteInfo = ext_convertUTF;
+		};
+		FC792119BF454FE98B992825 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 65B1A9C812894408AEA43498 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3EB409B00B6D478987FF6694;
+			remoteInfo = ZERO_CHECK;
+		};
+		FEB3935BC35F49D8820649F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 65B1A9C812894408AEA43498 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3EB409B00B6D478987FF6694;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1EA0B0C1C2D34BDA98012150 /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/ConvertUTF/ConvertUTFWrapper.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ConvertUTFWrapper.cpp; path = ConvertUTFWrapper.cpp; sourceTree = SOURCE_ROOT; };
+		317F35E98F404FAF9D314E80 /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/ConvertUTF/ConvertUTF.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ConvertUTF.c; path = ConvertUTF.c; sourceTree = SOURCE_ROOT; };
+		646D472534344B63B8C4DA96 /* ext_convertUTF */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libext_convertUTF.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		80D820E2C29542499E5F0E15 /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/ConvertUTF/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		86A79F604FDE4B1B9C7B4F4E /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/engine/external/ConvertUTF/CMakeFiles/ext_convertUTF.dir/Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; name = Info.plist; path = /Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/engine/external/ConvertUTF/CMakeFiles/ext_convertUTF.dir/Info.plist; sourceTree = "<absolute>"; };
+		A3B41B8B59D64BFB94E10C8B /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/ConvertUTF/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D36B1BF67CB94A2EA5D28355 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		107983EC8E9D477F80CA3C3F /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				317F35E98F404FAF9D314E80 /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/ConvertUTF/ConvertUTF.c */,
+				1EA0B0C1C2D34BDA98012150 /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/ConvertUTF/ConvertUTFWrapper.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		2A9182AFFCA04206BA4B8204 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		352E5C9B62AA4CEB96E0410C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		440FD43C144B4BF79A5F54A4 /* External */ = {
+			isa = PBXGroup;
+			children = (
+				468417D7CFFD447980618CCE /* ext_convertUTF */,
+			);
+			name = External;
+			sourceTree = "<group>";
+		};
+		468417D7CFFD447980618CCE /* ext_convertUTF */ = {
+			isa = PBXGroup;
+			children = (
+				107983EC8E9D477F80CA3C3F /* Source Files */,
+				938F5376D2544CBFB1F86D5F /* Resources */,
+				A3B41B8B59D64BFB94E10C8B /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/ConvertUTF/CMakeLists.txt */,
+			);
+			name = ext_convertUTF;
+			sourceTree = "<group>";
+		};
+		9018B1BDA55E48E38248466C = {
+			isa = PBXGroup;
+			children = (
+				440FD43C144B4BF79A5F54A4 /* External */,
+				BA8AC0064F7D4F1189F71A29 /* ALL_BUILD */,
+				B947EBAC81AA48239A622479 /* Products */,
+				352E5C9B62AA4CEB96E0410C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		938F5376D2544CBFB1F86D5F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				86A79F604FDE4B1B9C7B4F4E /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/engine/external/ConvertUTF/CMakeFiles/ext_convertUTF.dir/Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		B947EBAC81AA48239A622479 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				646D472534344B63B8C4DA96 /* ext_convertUTF */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BA8AC0064F7D4F1189F71A29 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				2A9182AFFCA04206BA4B8204 /* CMake Rules */,
+				80D820E2C29542499E5F0E15 /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/ConvertUTF/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		708218765A3442A1A519BE8A /* ext_convertUTF */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24ABD210A8044B159A8F8A7D /* Build configuration list for PBXNativeTarget "ext_convertUTF" */;
+			buildPhases = (
+				22CFBD4CEDF548A696FDA7E6 /* Sources */,
+				D36B1BF67CB94A2EA5D28355 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A8676BB647FA483F895D7519 /* PBXTargetDependency */,
+			);
+			name = ext_convertUTF;
+			productName = ext_convertUTF;
+			productReference = 646D472534344B63B8C4DA96 /* ext_convertUTF */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		65B1A9C812894408AEA43498 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1530;
+			};
+			buildConfigurationList = 81C6AE9E778048A78BD9F847 /* Build configuration list for PBXProject "convertUTF" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				278CF79883F04F949C3ACC33 /* Debug */,
+				0181079DB35447D8932A4FC4 /* Release */,
+				B1031832646B49C6A5192834 /* MinSizeRel */,
+				1867A7AB774A4C0D83203D71 /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 9018B1BDA55E48E38248466C;
+			projectDirPath = /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/ConvertUTF;
+			projectRoot = "";
+			targets = (
+				BFCF397A5ED14A6A8C98BAC7 /* ALL_BUILD */,
+				3EB409B00B6D478987FF6694 /* ZERO_CHECK */,
+				708218765A3442A1A519BE8A /* ext_convertUTF */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		318D44E65CF9B3754C2198E3 /* Generate CMakeFiles/ALL_BUILD */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ALL_BUILD";
+			outputPaths = (
+/Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/engine/external/ConvertUTF/CMakeFiles/ALL_BUILD			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/engine/external/ConvertUTF
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/engine/external/ConvertUTF
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/engine/external/ConvertUTF
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/engine/external/ConvertUTF
+  echo Build\\ all\\ projects
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		3C0110FC8322DE7E50886E21 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		9B50530E35CC49C82C2FACCF = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		F2A1BC4151F3989136C3BFA7 /* Generate CMakeFiles/ZERO_CHECK */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ZERO_CHECK";
+			outputPaths = (
+/Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/engine/external/ConvertUTF/CMakeFiles/ZERO_CHECK			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/engine/external/ConvertUTF
+  make -f /Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/engine/external/ConvertUTF/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/engine/external/ConvertUTF
+  make -f /Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/engine/external/ConvertUTF/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/engine/external/ConvertUTF
+  make -f /Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/engine/external/ConvertUTF/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/engine/external/ConvertUTF
+  make -f /Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/engine/external/ConvertUTF/CMakeScripts/ReRunCMake.make
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		22CFBD4CEDF548A696FDA7E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98358AE9BE544C988A85A5F0 /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/ConvertUTF/ConvertUTF.c */,
+				8288CB4F0BFF4D979FF1EC7E /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/ConvertUTF/ConvertUTFWrapper.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4F08AE60591C4D0DBCE71A99 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 708218765A3442A1A519BE8A /* ext_convertUTF */;
+			targetProxy = 7DB5D85725FD4FFF8E54FE29 /* PBXContainerItemProxy */;
+		};
+		A8676BB647FA483F895D7519 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3EB409B00B6D478987FF6694 /* ZERO_CHECK */;
+			targetProxy = FEB3935BC35F49D8820649F9 /* PBXContainerItemProxy */;
+		};
+		CE22029CE5714FCE9B856139 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3EB409B00B6D478987FF6694 /* ZERO_CHECK */;
+			targetProxy = FC792119BF454FE98B992825 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		14EC46EC7A6F44A6A6A20429 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		1BE52CC2A7FA4AC084877471 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/lib/Debug;
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/ConvertUTF/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = ("   '-std=gnu99' ","$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = "   '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_convertUTF;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/build/ext_convertUTF.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		4C52DB337B30419D8BAAB0D5 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/lib/MinSizeRel;
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/ConvertUTF/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = ("    -DNDEBUG '-std=gnu99' ","$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_convertUTF;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/build/ext_convertUTF.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		5731AE5C834E4F6E8EA06210 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/lib/Release;
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/ConvertUTF/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = ("    -DNDEBUG '-std=gnu99' ","$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_convertUTF;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/build/ext_convertUTF.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		5BF455EE399C4FC39FFA4242 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/lib/RelWithDebInfo;
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/ConvertUTF/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = ("       -DNDEBUG '-std=gnu99' ","$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_convertUTF;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/build/ext_convertUTF.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		6457DCA6E66E4534BDE113DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = /Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/build;
+			};
+			name = Release;
+		};
+		830E7B862D3148F1AB6DCA9E /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = /Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/build;
+			};
+			name = MinSizeRel;
+		};
+		884CD7410D3B485B83750EF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		8DD24328293F4084AB9B8830 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		8E892FECD60947D080C2F944 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		907832053DC14716AB10B347 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		AAAFD58A266244E192822B2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		D25ED962E8D74B43854B54E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		D5234D525E7347DCB6319A55 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = /Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/build;
+			};
+			name = RelWithDebInfo;
+		};
+		F8169FA191CB45ED82E76E51 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		FB1A60987CA342DAA925E972 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SYMROOT = /Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/build;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		24ABD210A8044B159A8F8A7D /* Build configuration list for PBXNativeTarget "ext_convertUTF" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BE52CC2A7FA4AC084877471 /* Debug */,
+				5731AE5C834E4F6E8EA06210 /* Release */,
+				4C52DB337B30419D8BAAB0D5 /* MinSizeRel */,
+				5BF455EE399C4FC39FFA4242 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		81C6AE9E778048A78BD9F847 /* Build configuration list for PBXProject "convertUTF" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB1A60987CA342DAA925E972 /* Debug */,
+				6457DCA6E66E4534BDE113DE /* Release */,
+				830E7B862D3148F1AB6DCA9E /* MinSizeRel */,
+				D5234D525E7347DCB6319A55 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		94E3A116277E4F9AADA95A09 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				907832053DC14716AB10B347 /* Debug */,
+				AAAFD58A266244E192822B2E /* Release */,
+				F8169FA191CB45ED82E76E51 /* MinSizeRel */,
+				14EC46EC7A6F44A6A6A20429 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		FFA27A6A3E75478AB1B5F3E7 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D25ED962E8D74B43854B54E8 /* Debug */,
+				884CD7410D3B485B83750EF1 /* Release */,
+				8DD24328293F4084AB9B8830 /* MinSizeRel */,
+				8E892FECD60947D080C2F944 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 65B1A9C812894408AEA43498 /* Project object */;
+}

@@ -1,0 +1,3044 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		3EB409B00B6D478987FF6694 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 53CB7F35BA1545018CBBA5BD /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				A3A530CE995EC3120C10D763 /* Generate CMakeFiles/ZERO_CHECK */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		BFCF397A5ED14A6A8C98BAC7 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 6DEFF0E3FCE4463CB1395237 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				BB79B2A7A08DE714A5A0C8E1 /* Generate CMakeFiles/ALL_BUILD */,
+			);
+			dependencies = (
+				2980BF307E574DEA8739CE70 /* PBXTargetDependency */,
+				08A0B3F16A4D48A59487EC6F /* PBXTargetDependency */,
+				40532E6943F54E1DA9B2377B /* PBXTargetDependency */,
+				15E9371224344D8884EC0D7A /* PBXTargetDependency */,
+				3A5B22F1931A4CFB8F2CBE99 /* PBXTargetDependency */,
+				A9BB30CA4D49425FBCC7A761 /* PBXTargetDependency */,
+				CDCBE399BEFF4CB68ED74DC8 /* PBXTargetDependency */,
+				C71577E7BE5F4EA291E6AB4D /* PBXTargetDependency */,
+				2C3175B24CCC418E8878A293 /* PBXTargetDependency */,
+				858C596C1D8947E7BE5BD674 /* PBXTargetDependency */,
+				34384769FA234A5993551FD1 /* PBXTargetDependency */,
+				1B64BDCE62924407A2ED4A48 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		00CD1DDC59454D56A3EAB3D9 /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/recast/DetourCrowd/DetourPathCorridor.cpp */ = {isa = PBXBuildFile; fileRef = 9197B35C783546C7AE115543 /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/recast/DetourCrowd/DetourPathCorridor.cpp */; };
+		01DE5EBB27304ABDB65ADEE9 /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/ConvertUTF/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 716620EA78D04349964938B8 /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/ConvertUTF/CMakeLists.txt */; };
+		06C49C94F3294325AEE3BA99 /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/unzip/ioapi_mem.cpp */ = {isa = PBXBuildFile; fileRef = A7C1A4C317E5429AB6F5DBEA /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/unzip/ioapi_mem.cpp */; };
+		11919984E987423282EC60F2 /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/clipper/clipper.cpp */ = {isa = PBXBuildFile; fileRef = DCBF82C52D0C4CDD81C953A7 /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/clipper/clipper.cpp */; };
+		11ED4453F95C46919A99A7D4 /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/recast/DetourTileCache/DetourTileCacheBuilder.cpp */ = {isa = PBXBuildFile; fileRef = 2441C5BFA3C6443EB1CDA7EB /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/recast/DetourTileCache/DetourTileCacheBuilder.cpp */; };
+		1C39AB15E5FA4C25AE9A3940 /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/poly2tri/sweep/sweep.cc */ = {isa = PBXBuildFile; fileRef = 6AF3734AFCC9455C97DAF826 /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/poly2tri/sweep/sweep.cc */; };
+		20EFD9FD541B4CBFB3B7B6DF /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/recast/DetourCrowd/DetourLocalBoundary.cpp */ = {isa = PBXBuildFile; fileRef = BF407FAFA9B24623869AA58D /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/recast/DetourCrowd/DetourLocalBoundary.cpp */; };
+		215C314F76D8412ABC6EF7CD /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/engine/external/clipper/CMakeFiles/ext_clipper.dir/Info.plist */ = {isa = PBXBuildFile; fileRef = 181FCA9502034186BD4BACDA /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/engine/external/clipper/CMakeFiles/ext_clipper.dir/Info.plist */; };
+		2737350278374609BE144FB0 /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/engine/external/edtaa3func/CMakeFiles/ext_edtaa3func.dir/Info.plist */ = {isa = PBXBuildFile; fileRef = C1AE2CCF3E554D738345F18D /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/engine/external/edtaa3func/CMakeFiles/ext_edtaa3func.dir/Info.plist */; };
+		2B3BDF3F55244E7CADEEB2EE /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/poly2tri/sweep/cdt.cc */ = {isa = PBXBuildFile; fileRef = 5FD99B66D5D5410FB99C94AC /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/poly2tri/sweep/cdt.cc */; };
+		2FDC636CCF0D402090B0122D /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/recast/Detour/DetourCommon.cpp */ = {isa = PBXBuildFile; fileRef = CD051720936346C2BCDA296B /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/recast/Detour/DetourCommon.cpp */; };
+		381B32CA51714AA184E35385 /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/tinyxml2/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 58F4695F245E4273AA599BEC /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/tinyxml2/CMakeLists.txt */; };
+		3F6A53D9F26B440CB570FC99 /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/recast/DebugUtils/DebugDraw.cpp */ = {isa = PBXBuildFile; fileRef = 856F0B7AC5A64429BE3C8C5E /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/recast/DebugUtils/DebugDraw.cpp */; };
+		4202E3F8AF4C48CD93B6E820 /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/edtaa3func/edtaa3func.cpp */ = {isa = PBXBuildFile; fileRef = 03D4CAD9597441839398CFCD /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/edtaa3func/edtaa3func.cpp */; };
+		43896A3FFE3D4C749BE762EC /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/engine/external/ConvertUTF/CMakeFiles/ext_convertUTF.dir/Info.plist */ = {isa = PBXBuildFile; fileRef = C8D5F9BB9FB145E2A2D426EB /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/engine/external/ConvertUTF/CMakeFiles/ext_convertUTF.dir/Info.plist */; };
+		450D15B2F7D1493086A265E5 /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/edtaa3func/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 4F6C7A1E382A49FBAF127207 /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/edtaa3func/CMakeLists.txt */; };
+		45AE13EAD0DA4C7CAC000DFC /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/md5/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 1FCF0F78FDC240B29CF0B5EC /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/md5/CMakeLists.txt */; };
+		4AA73DF665DC496D90FCBE38 /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/md5/md5.c */ = {isa = PBXBuildFile; fileRef = 673B7654D7F9448CA08F36AF /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/md5/md5.c */; };
+		4B6DC8DD855A4728873A7601 /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/engine/external/xxtea/CMakeFiles/ext_xxtea.dir/Info.plist */ = {isa = PBXBuildFile; fileRef = 445D594CC9354811B8E7D86D /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/engine/external/xxtea/CMakeFiles/ext_xxtea.dir/Info.plist */; };
+		4C812564C9014F26972FDF86 /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/poly2tri/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = E6CF94EEE44D4084BB7FC6CF /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/poly2tri/CMakeLists.txt */; };
+		4F1C066E90934315A4000159 /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/poly2tri/sweep/advancing_front.cc */ = {isa = PBXBuildFile; fileRef = E8C87F1FD6994726948F51D8 /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/poly2tri/sweep/advancing_front.cc */; };
+		5C08D1B2F6714CAFBFEC7145 /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/engine/external/recast/CMakeFiles/ext_recast.dir/Info.plist */ = {isa = PBXBuildFile; fileRef = 044D7DFC1D404AA8AD53E6B9 /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/engine/external/recast/CMakeFiles/ext_recast.dir/Info.plist */; };
+		6855182E949C4283A5E10CC4 /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/unzip/unzip.cpp */ = {isa = PBXBuildFile; fileRef = D292D3B17DC440E886DFDDE4 /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/unzip/unzip.cpp */; };
+		6CB81A7F713941B8861D1448 /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/engine/external/poly2tri/CMakeFiles/ext_poly2tri.dir/Info.plist */ = {isa = PBXBuildFile; fileRef = D5436FD88BCA424F85B358EA /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/engine/external/poly2tri/CMakeFiles/ext_poly2tri.dir/Info.plist */; };
+		6ECA7B30034E47D1AA03CCE2 /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/recast/Detour/DetourNavMeshQuery.cpp */ = {isa = PBXBuildFile; fileRef = 113BAE9782D5438AAE8EF1FA /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/recast/Detour/DetourNavMeshQuery.cpp */; };
+		6EE7D18D3ECF4D16A7A1B45D /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/ConvertUTF/ConvertUTFWrapper.cpp */ = {isa = PBXBuildFile; fileRef = EA3CD4987B984A60AF7B2B4C /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/ConvertUTF/ConvertUTFWrapper.cpp */; };
+		71BE3E39C73B403C8304331F /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/recast/DetourCrowd/DetourPathQueue.cpp */ = {isa = PBXBuildFile; fileRef = E892A5288C034CCF9664A3DE /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/recast/DetourCrowd/DetourPathQueue.cpp */; };
+		722178EA769446B0A1A34226 /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/recast/Detour/DetourNode.cpp */ = {isa = PBXBuildFile; fileRef = 0C9BA1ECC3D4448693AA73E9 /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/recast/Detour/DetourNode.cpp */; };
+		74816719CFC84B27969B3C99 /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/recast/Detour/DetourNavMesh.cpp */ = {isa = PBXBuildFile; fileRef = E4930DBA848B4E1CB644ABAC /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/recast/Detour/DetourNavMesh.cpp */; };
+		777BC5813C474F43B281C6AA /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/recast/DetourCrowd/DetourObstacleAvoidance.cpp */ = {isa = PBXBuildFile; fileRef = 41A993C64D7C46A48F30602E /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/recast/DetourCrowd/DetourObstacleAvoidance.cpp */; };
+		7965764A16434CE7BABC8B01 /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 23A7828E5811451AA6ED57E5 /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/CMakeLists.txt */; };
+		7D1829E88AC746C6BC98D878 /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/recast/Detour/DetourNavMeshBuilder.cpp */ = {isa = PBXBuildFile; fileRef = 2AB27BF2572644C4A7BF43D6 /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/recast/Detour/DetourNavMeshBuilder.cpp */; };
+		8ACEC68949FD41449306ECF5 /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/engine/external/tinyxml2/CMakeFiles/ext_tinyxml2.dir/Info.plist */ = {isa = PBXBuildFile; fileRef = 45036E87E23D49FCB84DEF49 /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/engine/external/tinyxml2/CMakeFiles/ext_tinyxml2.dir/Info.plist */; };
+		8B69C7E104214E988F07C11B /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/recast/DetourTileCache/DetourTileCache.cpp */ = {isa = PBXBuildFile; fileRef = 8CDF69ED035C4546952BE031 /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/recast/DetourTileCache/DetourTileCache.cpp */; };
+		919E2ED6D34648FDB60CA71B /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/xxtea/xxtea.cpp */ = {isa = PBXBuildFile; fileRef = 5EE71D97872449F6A581ACF8 /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/xxtea/xxtea.cpp */; };
+		92C3F8585C39494CBB013372 /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/xxhash/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 72FA637C3E734284BF0B744A /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/xxhash/CMakeLists.txt */; };
+		9C33DD3C64B145CDB70B2F1F /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/tinyxml2/tinyxml2.cpp */ = {isa = PBXBuildFile; fileRef = C1A37E37FE4448B2BD30C598 /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/tinyxml2/tinyxml2.cpp */; };
+		9EDB97904B8F40269C544A62 /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/ConvertUTF/ConvertUTF.c */ = {isa = PBXBuildFile; fileRef = 9DD742705E4D40EAA5999455 /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/ConvertUTF/ConvertUTF.c */; };
+		9EF098E1A1D84C8BB193E193 /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/recast/DetourCrowd/DetourCrowd.cpp */ = {isa = PBXBuildFile; fileRef = BC8688D9210749DEA2760438 /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/recast/DetourCrowd/DetourCrowd.cpp */; };
+		A5E4BFEC8FB9438CBFD9D00F /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/recast/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 93C3139366344200A092E556 /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/recast/CMakeLists.txt */; };
+		A8061AD5B8D740B4BA8CD812 /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/xxhash/xxhash.c */ = {isa = PBXBuildFile; fileRef = 33669E20B43B415B8994CBAD /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/xxhash/xxhash.c */; };
+		B1350ED0BD894356BAD7C11B /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/recast/fastlz/fastlz.c */ = {isa = PBXBuildFile; fileRef = DE850482B2944D1A891F7E02 /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/recast/fastlz/fastlz.c */; };
+		B5BA3AE2EF254B9BA3F72567 /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/unzip/ioapi.cpp */ = {isa = PBXBuildFile; fileRef = 043F6EA9BE664A9E98645C35 /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/unzip/ioapi.cpp */; };
+		BD88EE353DF84640B438AD64 /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/recast/Detour/DetourAlloc.cpp */ = {isa = PBXBuildFile; fileRef = 05713EA77A1C43F18B5F3D26 /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/recast/Detour/DetourAlloc.cpp */; };
+		C28BB92410C1475EB7189085 /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/poly2tri/common/shapes.cc */ = {isa = PBXBuildFile; fileRef = E74F261D7AA447CD90F212A1 /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/poly2tri/common/shapes.cc */; };
+		C477DC604C3E460D96EA6954 /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/poly2tri/sweep/sweep_context.cc */ = {isa = PBXBuildFile; fileRef = 269D08D5BE4B46CCB3D2B97F /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/poly2tri/sweep/sweep_context.cc */; };
+		CB9A7B5AACDF433BBC5DE6AB /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/engine/external/unzip/CMakeFiles/ext_unzip.dir/Info.plist */ = {isa = PBXBuildFile; fileRef = 57C6259A2FC64219AE50E519 /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/engine/external/unzip/CMakeFiles/ext_unzip.dir/Info.plist */; };
+		CBAB53A7339A489D9AF2EBE6 /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/engine/external/CMakeFiles/external.dir/Info.plist */ = {isa = PBXBuildFile; fileRef = F20E06081F1F49C08249F440 /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/engine/external/CMakeFiles/external.dir/Info.plist */; };
+		CDBCA5035CC34E9089502740 /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/recast/DebugUtils/DetourDebugDraw.cpp */ = {isa = PBXBuildFile; fileRef = 389EF0FE761D468DBCD8A026 /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/recast/DebugUtils/DetourDebugDraw.cpp */; };
+		D419E6CF92BA4716B00FD307 /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/empty.cpp */ = {isa = PBXBuildFile; fileRef = 160DDE5543124893B2B483FB /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/empty.cpp */; };
+		D45CED5CB3504BE8A55731A7 /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/unzip/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = ADD3BB59DA7A490691001BD0 /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/unzip/CMakeLists.txt */; };
+		DAF66437B59D4BB4B60D32E5 /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/clipper/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 0D57993D46AE461898F214C1 /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/clipper/CMakeLists.txt */; };
+		DF25E3B8B4B14C29A0352697 /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/xxtea/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 51BA7167E96241CA9FCBE645 /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/xxtea/CMakeLists.txt */; };
+		F299AA5A6D734827BBE84795 /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/engine/external/xxhash/CMakeFiles/ext_xxhash.dir/Info.plist */ = {isa = PBXBuildFile; fileRef = 2A888702BD3F447A95752830 /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/engine/external/xxhash/CMakeFiles/ext_xxhash.dir/Info.plist */; };
+		F4A081F359F64AC5850D5AD3 /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/recast/DetourCrowd/DetourProximityGrid.cpp */ = {isa = PBXBuildFile; fileRef = 3976FA198FA54968BF67B028 /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/recast/DetourCrowd/DetourProximityGrid.cpp */; };
+		F79EE3F9A5B74AAD9BF45EA5 /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/engine/external/md5/CMakeFiles/ext_md5.dir/Info.plist */ = {isa = PBXBuildFile; fileRef = D9C0909C22B444798DDBBB6A /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/engine/external/md5/CMakeFiles/ext_md5.dir/Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		2FBD480570114B4284DBF3E3 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		78BEE9B11C3F49D4A8772FA1 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		B06DBC341E2B43D8B7C0ECB3 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		E5BFF1E7919F4AA1A429B9DA /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		10EC0BE71844497CB3A724D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6484F7B76B854ACC90E91102 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1DFCDEC7B6E24E199116A913;
+			remoteInfo = ext_md5;
+		};
+		1E4631876F2E4054A1A4F861 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6484F7B76B854ACC90E91102 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 49B226ED0C8D4A5EB324980F;
+			remoteInfo = ext_tinyxml2;
+		};
+		286AB2B9FFDB497B9B186CDA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6484F7B76B854ACC90E91102 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 708218765A3442A1A519BE8A;
+			remoteInfo = ext_convertUTF;
+		};
+		2BB9A3463B2E4DCE947F09A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6484F7B76B854ACC90E91102 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 708218765A3442A1A519BE8A;
+			remoteInfo = ext_convertUTF;
+		};
+		370BDB8E3FE94EBAAC34FC62 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6484F7B76B854ACC90E91102 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3EB409B00B6D478987FF6694;
+			remoteInfo = ZERO_CHECK;
+		};
+		3FA0FB2FD3AA4E7F894A878D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6484F7B76B854ACC90E91102 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 45A19E21AFCA462B9D4E8CE9;
+			remoteInfo = ext_poly2tri;
+		};
+		4B5B41DD5F224CB1949F1840 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6484F7B76B854ACC90E91102 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4FF8FFFE771B4AA492199675;
+			remoteInfo = ext_xxtea;
+		};
+		509EC4FE12D04C5D932451DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6484F7B76B854ACC90E91102 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA3C0D90DBF84C6FB7A7AA95;
+			remoteInfo = ext_clipper;
+		};
+		6CBF0852153D46599C45E124 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6484F7B76B854ACC90E91102 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5D596EC4CFED4B4892C9460D;
+			remoteInfo = ext_unzip;
+		};
+		704DF04BDC6B411DADCD9491 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6484F7B76B854ACC90E91102 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 85B028926927404D807C4663;
+			remoteInfo = ext_edtaa3func;
+		};
+		88651D24B7434FDCB80C126C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6484F7B76B854ACC90E91102 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0DA3093D300F4AAD8FBF6A44;
+			remoteInfo = ext_xxhash;
+		};
+		8D8C0B843B2644EDAABF0237 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6484F7B76B854ACC90E91102 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4FF8FFFE771B4AA492199675;
+			remoteInfo = ext_xxtea;
+		};
+		8F1EF858C5654B288473DE83 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6484F7B76B854ACC90E91102 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 19EFF5FF315F4E4293457292;
+			remoteInfo = external;
+		};
+		9F8F95E0053D45DAA0CF2FA9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6484F7B76B854ACC90E91102 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 45A19E21AFCA462B9D4E8CE9;
+			remoteInfo = ext_poly2tri;
+		};
+		B89B1E2D2B8F4F198FEC35C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6484F7B76B854ACC90E91102 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5D596EC4CFED4B4892C9460D;
+			remoteInfo = ext_unzip;
+		};
+		BADA50BE05664BACBD6E1F1B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6484F7B76B854ACC90E91102 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3EB409B00B6D478987FF6694;
+			remoteInfo = ZERO_CHECK;
+		};
+		BD6625A567774D509F8ADD20 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6484F7B76B854ACC90E91102 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 49B226ED0C8D4A5EB324980F;
+			remoteInfo = ext_tinyxml2;
+		};
+		CB96AE118D934303B45657BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6484F7B76B854ACC90E91102 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA3C0D90DBF84C6FB7A7AA95;
+			remoteInfo = ext_clipper;
+		};
+		D12799FDDB8546459D886E51 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6484F7B76B854ACC90E91102 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D6752A69DF1D429F98302D45;
+			remoteInfo = ext_recast;
+		};
+		E7DA7EA3AA40481AABBA0017 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6484F7B76B854ACC90E91102 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D6752A69DF1D429F98302D45;
+			remoteInfo = ext_recast;
+		};
+		F36C708F6B21450FB13E9F45 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6484F7B76B854ACC90E91102 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1DFCDEC7B6E24E199116A913;
+			remoteInfo = ext_md5;
+		};
+		F928CB90EE854F05B19AB6AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6484F7B76B854ACC90E91102 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 85B028926927404D807C4663;
+			remoteInfo = ext_edtaa3func;
+		};
+		F94EE9540571456E9BC0A7F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6484F7B76B854ACC90E91102 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0DA3093D300F4AAD8FBF6A44;
+			remoteInfo = ext_xxhash;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03D4CAD9597441839398CFCD /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/edtaa3func/edtaa3func.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = edtaa3func.cpp; path = edtaa3func/edtaa3func.cpp; sourceTree = SOURCE_ROOT; };
+		043F6EA9BE664A9E98645C35 /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/unzip/ioapi.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ioapi.cpp; path = unzip/ioapi.cpp; sourceTree = SOURCE_ROOT; };
+		044D7DFC1D404AA8AD53E6B9 /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/engine/external/recast/CMakeFiles/ext_recast.dir/Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; name = Info.plist; path = /Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/engine/external/recast/CMakeFiles/ext_recast.dir/Info.plist; sourceTree = "<absolute>"; };
+		05713EA77A1C43F18B5F3D26 /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/recast/Detour/DetourAlloc.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourAlloc.cpp; path = recast/Detour/DetourAlloc.cpp; sourceTree = SOURCE_ROOT; };
+		059322A4A80C46518AD577DB /* ext_md5 */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libext_md5.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C9BA1ECC3D4448693AA73E9 /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/recast/Detour/DetourNode.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourNode.cpp; path = recast/Detour/DetourNode.cpp; sourceTree = SOURCE_ROOT; };
+		0D57993D46AE461898F214C1 /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/clipper/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = clipper/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		113BAE9782D5438AAE8EF1FA /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/recast/Detour/DetourNavMeshQuery.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourNavMeshQuery.cpp; path = recast/Detour/DetourNavMeshQuery.cpp; sourceTree = SOURCE_ROOT; };
+		160DDE5543124893B2B483FB /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/empty.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = empty.cpp; path = empty.cpp; sourceTree = SOURCE_ROOT; };
+		181FCA9502034186BD4BACDA /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/engine/external/clipper/CMakeFiles/ext_clipper.dir/Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; name = Info.plist; path = /Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/engine/external/clipper/CMakeFiles/ext_clipper.dir/Info.plist; sourceTree = "<absolute>"; };
+		189CD87813984F0C895F1EA7 /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		1FCF0F78FDC240B29CF0B5EC /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/md5/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = md5/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		23A7828E5811451AA6ED57E5 /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		2441C5BFA3C6443EB1CDA7EB /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/recast/DetourTileCache/DetourTileCacheBuilder.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourTileCacheBuilder.cpp; path = recast/DetourTileCache/DetourTileCacheBuilder.cpp; sourceTree = SOURCE_ROOT; };
+		269D08D5BE4B46CCB3D2B97F /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/poly2tri/sweep/sweep_context.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = sweep_context.cc; path = poly2tri/sweep/sweep_context.cc; sourceTree = SOURCE_ROOT; };
+		2A888702BD3F447A95752830 /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/engine/external/xxhash/CMakeFiles/ext_xxhash.dir/Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; name = Info.plist; path = /Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/engine/external/xxhash/CMakeFiles/ext_xxhash.dir/Info.plist; sourceTree = "<absolute>"; };
+		2AB27BF2572644C4A7BF43D6 /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/recast/Detour/DetourNavMeshBuilder.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourNavMeshBuilder.cpp; path = recast/Detour/DetourNavMeshBuilder.cpp; sourceTree = SOURCE_ROOT; };
+		3316F5C7B09A4FCEADAE1C6D /* ext_recast */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libext_recast.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		33669E20B43B415B8994CBAD /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/xxhash/xxhash.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = xxhash.c; path = xxhash/xxhash.c; sourceTree = SOURCE_ROOT; };
+		341C1387E477433A86041DC9 /* ext_unzip */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libext_unzip.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		37CF87078F074ED2A5CA7406 /* external */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libexternal.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		389EF0FE761D468DBCD8A026 /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/recast/DebugUtils/DetourDebugDraw.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourDebugDraw.cpp; path = recast/DebugUtils/DetourDebugDraw.cpp; sourceTree = SOURCE_ROOT; };
+		3976FA198FA54968BF67B028 /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/recast/DetourCrowd/DetourProximityGrid.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourProximityGrid.cpp; path = recast/DetourCrowd/DetourProximityGrid.cpp; sourceTree = SOURCE_ROOT; };
+		41A993C64D7C46A48F30602E /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/recast/DetourCrowd/DetourObstacleAvoidance.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourObstacleAvoidance.cpp; path = recast/DetourCrowd/DetourObstacleAvoidance.cpp; sourceTree = SOURCE_ROOT; };
+		445D594CC9354811B8E7D86D /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/engine/external/xxtea/CMakeFiles/ext_xxtea.dir/Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; name = Info.plist; path = /Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/engine/external/xxtea/CMakeFiles/ext_xxtea.dir/Info.plist; sourceTree = "<absolute>"; };
+		45036E87E23D49FCB84DEF49 /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/engine/external/tinyxml2/CMakeFiles/ext_tinyxml2.dir/Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; name = Info.plist; path = /Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/engine/external/tinyxml2/CMakeFiles/ext_tinyxml2.dir/Info.plist; sourceTree = "<absolute>"; };
+		4F6C7A1E382A49FBAF127207 /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/edtaa3func/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = edtaa3func/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		51BA7167E96241CA9FCBE645 /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/xxtea/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = xxtea/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		57C6259A2FC64219AE50E519 /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/engine/external/unzip/CMakeFiles/ext_unzip.dir/Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; name = Info.plist; path = /Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/engine/external/unzip/CMakeFiles/ext_unzip.dir/Info.plist; sourceTree = "<absolute>"; };
+		58F4695F245E4273AA599BEC /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/tinyxml2/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = tinyxml2/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		5EE71D97872449F6A581ACF8 /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/xxtea/xxtea.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = xxtea.cpp; path = xxtea/xxtea.cpp; sourceTree = SOURCE_ROOT; };
+		5FD99B66D5D5410FB99C94AC /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/poly2tri/sweep/cdt.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = cdt.cc; path = poly2tri/sweep/cdt.cc; sourceTree = SOURCE_ROOT; };
+		673B7654D7F9448CA08F36AF /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/md5/md5.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = md5.c; path = md5/md5.c; sourceTree = SOURCE_ROOT; };
+		6AF3734AFCC9455C97DAF826 /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/poly2tri/sweep/sweep.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = sweep.cc; path = poly2tri/sweep/sweep.cc; sourceTree = SOURCE_ROOT; };
+		716620EA78D04349964938B8 /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/ConvertUTF/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = ConvertUTF/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		72FA637C3E734284BF0B744A /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/xxhash/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = xxhash/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		856F0B7AC5A64429BE3C8C5E /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/recast/DebugUtils/DebugDraw.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DebugDraw.cpp; path = recast/DebugUtils/DebugDraw.cpp; sourceTree = SOURCE_ROOT; };
+		8CDF69ED035C4546952BE031 /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/recast/DetourTileCache/DetourTileCache.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourTileCache.cpp; path = recast/DetourTileCache/DetourTileCache.cpp; sourceTree = SOURCE_ROOT; };
+		9197B35C783546C7AE115543 /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/recast/DetourCrowd/DetourPathCorridor.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourPathCorridor.cpp; path = recast/DetourCrowd/DetourPathCorridor.cpp; sourceTree = SOURCE_ROOT; };
+		93C3139366344200A092E556 /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/recast/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = recast/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		9DD742705E4D40EAA5999455 /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/ConvertUTF/ConvertUTF.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ConvertUTF.c; path = ConvertUTF/ConvertUTF.c; sourceTree = SOURCE_ROOT; };
+		A7C1A4C317E5429AB6F5DBEA /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/unzip/ioapi_mem.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ioapi_mem.cpp; path = unzip/ioapi_mem.cpp; sourceTree = SOURCE_ROOT; };
+		AD2E842B7B74425D9F6AD08E /* ext_poly2tri */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libext_poly2tri.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADD3BB59DA7A490691001BD0 /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/unzip/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = unzip/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		BC8688D9210749DEA2760438 /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/recast/DetourCrowd/DetourCrowd.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourCrowd.cpp; path = recast/DetourCrowd/DetourCrowd.cpp; sourceTree = SOURCE_ROOT; };
+		BD28464ABEC84D7E95E6504D /* ext_tinyxml2 */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libext_tinyxml2.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF407FAFA9B24623869AA58D /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/recast/DetourCrowd/DetourLocalBoundary.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourLocalBoundary.cpp; path = recast/DetourCrowd/DetourLocalBoundary.cpp; sourceTree = SOURCE_ROOT; };
+		C1A37E37FE4448B2BD30C598 /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/tinyxml2/tinyxml2.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = tinyxml2.cpp; path = tinyxml2/tinyxml2.cpp; sourceTree = SOURCE_ROOT; };
+		C1AE2CCF3E554D738345F18D /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/engine/external/edtaa3func/CMakeFiles/ext_edtaa3func.dir/Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; name = Info.plist; path = /Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/engine/external/edtaa3func/CMakeFiles/ext_edtaa3func.dir/Info.plist; sourceTree = "<absolute>"; };
+		C8D5F9BB9FB145E2A2D426EB /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/engine/external/ConvertUTF/CMakeFiles/ext_convertUTF.dir/Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; name = Info.plist; path = /Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/engine/external/ConvertUTF/CMakeFiles/ext_convertUTF.dir/Info.plist; sourceTree = "<absolute>"; };
+		CD051720936346C2BCDA296B /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/recast/Detour/DetourCommon.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourCommon.cpp; path = recast/Detour/DetourCommon.cpp; sourceTree = SOURCE_ROOT; };
+		D292D3B17DC440E886DFDDE4 /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/unzip/unzip.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = unzip.cpp; path = unzip/unzip.cpp; sourceTree = SOURCE_ROOT; };
+		D5436FD88BCA424F85B358EA /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/engine/external/poly2tri/CMakeFiles/ext_poly2tri.dir/Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; name = Info.plist; path = /Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/engine/external/poly2tri/CMakeFiles/ext_poly2tri.dir/Info.plist; sourceTree = "<absolute>"; };
+		D5D7859D14FD4F4FA1F73757 /* ext_edtaa3func */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libext_edtaa3func.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9C0909C22B444798DDBBB6A /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/engine/external/md5/CMakeFiles/ext_md5.dir/Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; name = Info.plist; path = /Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/engine/external/md5/CMakeFiles/ext_md5.dir/Info.plist; sourceTree = "<absolute>"; };
+		DCBF82C52D0C4CDD81C953A7 /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/clipper/clipper.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = clipper.cpp; path = clipper/clipper.cpp; sourceTree = SOURCE_ROOT; };
+		DE850482B2944D1A891F7E02 /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/recast/fastlz/fastlz.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = fastlz.c; path = recast/fastlz/fastlz.c; sourceTree = SOURCE_ROOT; };
+		E0533E56EFCB4B4DBFB8F023 /* ext_xxhash */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libext_xxhash.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4930DBA848B4E1CB644ABAC /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/recast/Detour/DetourNavMesh.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourNavMesh.cpp; path = recast/Detour/DetourNavMesh.cpp; sourceTree = SOURCE_ROOT; };
+		E6CF94EEE44D4084BB7FC6CF /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/poly2tri/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = poly2tri/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		E74F261D7AA447CD90F212A1 /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/poly2tri/common/shapes.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = shapes.cc; path = poly2tri/common/shapes.cc; sourceTree = SOURCE_ROOT; };
+		E892A5288C034CCF9664A3DE /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/recast/DetourCrowd/DetourPathQueue.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourPathQueue.cpp; path = recast/DetourCrowd/DetourPathQueue.cpp; sourceTree = SOURCE_ROOT; };
+		E8C87F1FD6994726948F51D8 /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/poly2tri/sweep/advancing_front.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = advancing_front.cc; path = poly2tri/sweep/advancing_front.cc; sourceTree = SOURCE_ROOT; };
+		E95BF660EE7548E6A87FF6D3 /* ext_convertUTF */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libext_convertUTF.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA3CD4987B984A60AF7B2B4C /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/ConvertUTF/ConvertUTFWrapper.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ConvertUTFWrapper.cpp; path = ConvertUTF/ConvertUTFWrapper.cpp; sourceTree = SOURCE_ROOT; };
+		EA9C83B7734A4B6692C6242B /* ext_clipper */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libext_clipper.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F20E06081F1F49C08249F440 /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/engine/external/CMakeFiles/external.dir/Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; name = Info.plist; path = /Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/engine/external/CMakeFiles/external.dir/Info.plist; sourceTree = "<absolute>"; };
+		FEF6B373992D4844A6423B47 /* ext_xxtea */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libext_xxtea.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		152FF0E15C6A4C9EBF225DA8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26A7D65F92C24A66A03B2D87 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		312D1D725BE040D2BAC6CBC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B65CC92604641828C72AFAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		704A1DD216BF4193A3F1177F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70F6660D0EF64E8087A096D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9ABB7F8285004A5E9141875A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A04A675F527E4445BB648DE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4DE5B8CDD6342D7BAE52612 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7062FD21DDC42B4BEC9AAD5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D579D1EAF1374ADD91DA0A4D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		19EDBA6FDD5D464986F9EBAA /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				33669E20B43B415B8994CBAD /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/xxhash/xxhash.c */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		1AC53440A23B4ABA9DEEE85F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				044D7DFC1D404AA8AD53E6B9 /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/engine/external/recast/CMakeFiles/ext_recast.dir/Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		27C0575425D646F88C01EE7F /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				856F0B7AC5A64429BE3C8C5E /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/recast/DebugUtils/DebugDraw.cpp */,
+				389EF0FE761D468DBCD8A026 /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/recast/DebugUtils/DetourDebugDraw.cpp */,
+				05713EA77A1C43F18B5F3D26 /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/recast/Detour/DetourAlloc.cpp */,
+				CD051720936346C2BCDA296B /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/recast/Detour/DetourCommon.cpp */,
+				E4930DBA848B4E1CB644ABAC /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/recast/Detour/DetourNavMesh.cpp */,
+				2AB27BF2572644C4A7BF43D6 /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/recast/Detour/DetourNavMeshBuilder.cpp */,
+				113BAE9782D5438AAE8EF1FA /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/recast/Detour/DetourNavMeshQuery.cpp */,
+				0C9BA1ECC3D4448693AA73E9 /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/recast/Detour/DetourNode.cpp */,
+				BC8688D9210749DEA2760438 /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/recast/DetourCrowd/DetourCrowd.cpp */,
+				BF407FAFA9B24623869AA58D /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/recast/DetourCrowd/DetourLocalBoundary.cpp */,
+				41A993C64D7C46A48F30602E /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/recast/DetourCrowd/DetourObstacleAvoidance.cpp */,
+				9197B35C783546C7AE115543 /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/recast/DetourCrowd/DetourPathCorridor.cpp */,
+				E892A5288C034CCF9664A3DE /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/recast/DetourCrowd/DetourPathQueue.cpp */,
+				3976FA198FA54968BF67B028 /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/recast/DetourCrowd/DetourProximityGrid.cpp */,
+				8CDF69ED035C4546952BE031 /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/recast/DetourTileCache/DetourTileCache.cpp */,
+				2441C5BFA3C6443EB1CDA7EB /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/recast/DetourTileCache/DetourTileCacheBuilder.cpp */,
+				DE850482B2944D1A891F7E02 /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/recast/fastlz/fastlz.c */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		2D0952BBD1DF4BA39ED1D39E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				45036E87E23D49FCB84DEF49 /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/engine/external/tinyxml2/CMakeFiles/ext_tinyxml2.dir/Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		3380500204014D5499C067B5 /* external */ = {
+			isa = PBXGroup;
+			children = (
+				5F556D7151204290B545A715 /* Source Files */,
+				814EA9990DE140748B72EDF4 /* Resources */,
+				23A7828E5811451AA6ED57E5 /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/CMakeLists.txt */,
+			);
+			name = external;
+			sourceTree = "<group>";
+		};
+		3E82546C3FEC4269B17C3F58 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4248FFF789E8491EB04F26B5 /* ext_clipper */ = {
+			isa = PBXGroup;
+			children = (
+				F56F4D68E07D47FDAE536FF5 /* Source Files */,
+				A0D265480E524B0481D4EA4D /* Resources */,
+				0D57993D46AE461898F214C1 /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/clipper/CMakeLists.txt */,
+			);
+			name = ext_clipper;
+			sourceTree = "<group>";
+		};
+		45256BBFEEB64B9E9A9009D0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				57C6259A2FC64219AE50E519 /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/engine/external/unzip/CMakeFiles/ext_unzip.dir/Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		5093D830D44A4FDF91B2AD7E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D9C0909C22B444798DDBBB6A /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/engine/external/md5/CMakeFiles/ext_md5.dir/Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		5221F6ABCA0A41AB9241940D /* ext_recast */ = {
+			isa = PBXGroup;
+			children = (
+				27C0575425D646F88C01EE7F /* Source Files */,
+				1AC53440A23B4ABA9DEEE85F /* Resources */,
+				93C3139366344200A092E556 /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/recast/CMakeLists.txt */,
+			);
+			name = ext_recast;
+			sourceTree = "<group>";
+		};
+		542F3F36A1FC404ABCA26CD1 /* ext_convertUTF */ = {
+			isa = PBXGroup;
+			children = (
+				FAF2A83FFCE943E5BDDD684F /* Source Files */,
+				839563A8C82E45D58A6FCC1D /* Resources */,
+				716620EA78D04349964938B8 /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/ConvertUTF/CMakeLists.txt */,
+			);
+			name = ext_convertUTF;
+			sourceTree = "<group>";
+		};
+		5D7D03E53C404696A5560B0F /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				03D4CAD9597441839398CFCD /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/edtaa3func/edtaa3func.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		5F556D7151204290B545A715 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				160DDE5543124893B2B483FB /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/empty.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		5FB02A266C8E4D7BBC2F6E8D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C1AE2CCF3E554D738345F18D /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/engine/external/edtaa3func/CMakeFiles/ext_edtaa3func.dir/Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		814EA9990DE140748B72EDF4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F20E06081F1F49C08249F440 /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/engine/external/CMakeFiles/external.dir/Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		839563A8C82E45D58A6FCC1D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C8D5F9BB9FB145E2A2D426EB /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/engine/external/ConvertUTF/CMakeFiles/ext_convertUTF.dir/Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		843C4AA8E0C544A890DC6CDC /* ext_tinyxml2 */ = {
+			isa = PBXGroup;
+			children = (
+				ED769D42B15D42D2AF27E710 /* Source Files */,
+				2D0952BBD1DF4BA39ED1D39E /* Resources */,
+				58F4695F245E4273AA599BEC /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/tinyxml2/CMakeLists.txt */,
+			);
+			name = ext_tinyxml2;
+			sourceTree = "<group>";
+		};
+		8FEDF22A9E0D499FB5D47D99 = {
+			isa = PBXGroup;
+			children = (
+				A4128035EE2346019CC08209 /* External */,
+				D71B9552F00047E6B678A280 /* ALL_BUILD */,
+				F86FE734CE7544D3A5ECC3A7 /* Products */,
+				3E82546C3FEC4269B17C3F58 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		92034D4A39DA4E19BD5A46F8 /* ext_xxtea */ = {
+			isa = PBXGroup;
+			children = (
+				E9C22287787B4705BD2F0EBD /* Source Files */,
+				9DEB6CC94DA340C5B9F6FBA5 /* Resources */,
+				51BA7167E96241CA9FCBE645 /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/xxtea/CMakeLists.txt */,
+			);
+			name = ext_xxtea;
+			sourceTree = "<group>";
+		};
+		9DEB6CC94DA340C5B9F6FBA5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				445D594CC9354811B8E7D86D /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/engine/external/xxtea/CMakeFiles/ext_xxtea.dir/Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		A0D265480E524B0481D4EA4D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				181FCA9502034186BD4BACDA /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/engine/external/clipper/CMakeFiles/ext_clipper.dir/Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		A4128035EE2346019CC08209 /* External */ = {
+			isa = PBXGroup;
+			children = (
+				3380500204014D5499C067B5 /* external */,
+				5221F6ABCA0A41AB9241940D /* ext_recast */,
+				843C4AA8E0C544A890DC6CDC /* ext_tinyxml2 */,
+				B36A5011EEBC47808B270B5D /* ext_xxhash */,
+				92034D4A39DA4E19BD5A46F8 /* ext_xxtea */,
+				4248FFF789E8491EB04F26B5 /* ext_clipper */,
+				DAC1E295640D42AAA3842DB3 /* ext_edtaa3func */,
+				542F3F36A1FC404ABCA26CD1 /* ext_convertUTF */,
+				FFA8E815C1AB46E4B888502C /* ext_poly2tri */,
+				C50C3A5374824206AD56CCB2 /* ext_md5 */,
+				EE4E6588C3C7462DB7A310A1 /* ext_unzip */,
+			);
+			name = External;
+			sourceTree = "<group>";
+		};
+		ADFA46DC3107471C815122BE /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				043F6EA9BE664A9E98645C35 /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/unzip/ioapi.cpp */,
+				A7C1A4C317E5429AB6F5DBEA /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/unzip/ioapi_mem.cpp */,
+				D292D3B17DC440E886DFDDE4 /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/unzip/unzip.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		B36A5011EEBC47808B270B5D /* ext_xxhash */ = {
+			isa = PBXGroup;
+			children = (
+				19EDBA6FDD5D464986F9EBAA /* Source Files */,
+				C4C9A156455B42EB94A7E749 /* Resources */,
+				72FA637C3E734284BF0B744A /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/xxhash/CMakeLists.txt */,
+			);
+			name = ext_xxhash;
+			sourceTree = "<group>";
+		};
+		C4C9A156455B42EB94A7E749 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2A888702BD3F447A95752830 /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/engine/external/xxhash/CMakeFiles/ext_xxhash.dir/Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		C50C3A5374824206AD56CCB2 /* ext_md5 */ = {
+			isa = PBXGroup;
+			children = (
+				ECCDF07566FA41BEA54DFAC4 /* Source Files */,
+				5093D830D44A4FDF91B2AD7E /* Resources */,
+				1FCF0F78FDC240B29CF0B5EC /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/md5/CMakeLists.txt */,
+			);
+			name = ext_md5;
+			sourceTree = "<group>";
+		};
+		D71B9552F00047E6B678A280 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				E1AF52141BBD4A1EAB343667 /* CMake Rules */,
+				189CD87813984F0C895F1EA7 /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		DAC1E295640D42AAA3842DB3 /* ext_edtaa3func */ = {
+			isa = PBXGroup;
+			children = (
+				5D7D03E53C404696A5560B0F /* Source Files */,
+				5FB02A266C8E4D7BBC2F6E8D /* Resources */,
+				4F6C7A1E382A49FBAF127207 /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/edtaa3func/CMakeLists.txt */,
+			);
+			name = ext_edtaa3func;
+			sourceTree = "<group>";
+		};
+		DBE291B006B34E5DBB263E86 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				E74F261D7AA447CD90F212A1 /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/poly2tri/common/shapes.cc */,
+				E8C87F1FD6994726948F51D8 /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/poly2tri/sweep/advancing_front.cc */,
+				5FD99B66D5D5410FB99C94AC /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/poly2tri/sweep/cdt.cc */,
+				6AF3734AFCC9455C97DAF826 /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/poly2tri/sweep/sweep.cc */,
+				269D08D5BE4B46CCB3D2B97F /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/poly2tri/sweep/sweep_context.cc */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		E1AF52141BBD4A1EAB343667 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		E9A36A11CD204580A1E3DFBD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D5436FD88BCA424F85B358EA /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/engine/external/poly2tri/CMakeFiles/ext_poly2tri.dir/Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		E9C22287787B4705BD2F0EBD /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				5EE71D97872449F6A581ACF8 /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/xxtea/xxtea.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		ECCDF07566FA41BEA54DFAC4 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				673B7654D7F9448CA08F36AF /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/md5/md5.c */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		ED769D42B15D42D2AF27E710 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				C1A37E37FE4448B2BD30C598 /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/tinyxml2/tinyxml2.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		EE4E6588C3C7462DB7A310A1 /* ext_unzip */ = {
+			isa = PBXGroup;
+			children = (
+				ADFA46DC3107471C815122BE /* Source Files */,
+				45256BBFEEB64B9E9A9009D0 /* Resources */,
+				ADD3BB59DA7A490691001BD0 /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/unzip/CMakeLists.txt */,
+			);
+			name = ext_unzip;
+			sourceTree = "<group>";
+		};
+		F56F4D68E07D47FDAE536FF5 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				DCBF82C52D0C4CDD81C953A7 /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/clipper/clipper.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		F86FE734CE7544D3A5ECC3A7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA9C83B7734A4B6692C6242B /* ext_clipper */,
+				E95BF660EE7548E6A87FF6D3 /* ext_convertUTF */,
+				D5D7859D14FD4F4FA1F73757 /* ext_edtaa3func */,
+				059322A4A80C46518AD577DB /* ext_md5 */,
+				AD2E842B7B74425D9F6AD08E /* ext_poly2tri */,
+				3316F5C7B09A4FCEADAE1C6D /* ext_recast */,
+				BD28464ABEC84D7E95E6504D /* ext_tinyxml2 */,
+				341C1387E477433A86041DC9 /* ext_unzip */,
+				E0533E56EFCB4B4DBFB8F023 /* ext_xxhash */,
+				FEF6B373992D4844A6423B47 /* ext_xxtea */,
+				37CF87078F074ED2A5CA7406 /* external */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAF2A83FFCE943E5BDDD684F /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				9DD742705E4D40EAA5999455 /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/ConvertUTF/ConvertUTF.c */,
+				EA3CD4987B984A60AF7B2B4C /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/ConvertUTF/ConvertUTFWrapper.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		FFA8E815C1AB46E4B888502C /* ext_poly2tri */ = {
+			isa = PBXGroup;
+			children = (
+				DBE291B006B34E5DBB263E86 /* Source Files */,
+				E9A36A11CD204580A1E3DFBD /* Resources */,
+				E6CF94EEE44D4084BB7FC6CF /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/poly2tri/CMakeLists.txt */,
+			);
+			name = ext_poly2tri;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0DA3093D300F4AAD8FBF6A44 /* ext_xxhash */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DFCA209E0704AC9884FA4B3 /* Build configuration list for PBXNativeTarget "ext_xxhash" */;
+			buildPhases = (
+				6B7B320E4D7B4EFF8B794176 /* Sources */,
+				A7062FD21DDC42B4BEC9AAD5 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ext_xxhash;
+			productName = ext_xxhash;
+			productReference = E0533E56EFCB4B4DBFB8F023 /* ext_xxhash */;
+			productType = "com.apple.product-type.library.static";
+		};
+		19EFF5FF315F4E4293457292 /* external */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C8978009CF9948848C2D448E /* Build configuration list for PBXNativeTarget "external" */;
+			buildPhases = (
+				BED4BFA656584AD2B282B63B /* Sources */,
+				A4DE5B8CDD6342D7BAE52612 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F920651F03BC4999A720BC6E /* PBXTargetDependency */,
+				A05335A401B3439EAF3F7526 /* PBXTargetDependency */,
+				C8740511649F40C999A3BA81 /* PBXTargetDependency */,
+				7EF8A538E9C64C86B15C1994 /* PBXTargetDependency */,
+				CE2DC80F7CCD4C269E349571 /* PBXTargetDependency */,
+				C3787BBE2504427C862BA795 /* PBXTargetDependency */,
+				CC20E40D092F4DB4ADC88F9C /* PBXTargetDependency */,
+				4B01D2E4962A462F85D86973 /* PBXTargetDependency */,
+				78964A18F0DC45A0B2677BF4 /* PBXTargetDependency */,
+				E494AF88368A46C68C675102 /* PBXTargetDependency */,
+				0F9FAFF8484649EEAE1E7954 /* PBXTargetDependency */,
+			);
+			name = external;
+			productName = external;
+			productReference = 37CF87078F074ED2A5CA7406 /* external */;
+			productType = "com.apple.product-type.library.static";
+		};
+		1DFCDEC7B6E24E199116A913 /* ext_md5 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3BC0137AC57945DF90F37FD9 /* Build configuration list for PBXNativeTarget "ext_md5" */;
+			buildPhases = (
+				00A5FD2B01394B86BE66E237 /* Sources */,
+				6B65CC92604641828C72AFAE /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ext_md5;
+			productName = ext_md5;
+			productReference = 059322A4A80C46518AD577DB /* ext_md5 */;
+			productType = "com.apple.product-type.library.static";
+		};
+		45A19E21AFCA462B9D4E8CE9 /* ext_poly2tri */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D120738082244164A715E5A3 /* Build configuration list for PBXNativeTarget "ext_poly2tri" */;
+			buildPhases = (
+				5B54F51D4FC94D22B4D62BC5 /* Sources */,
+				152FF0E15C6A4C9EBF225DA8 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ext_poly2tri;
+			productName = ext_poly2tri;
+			productReference = AD2E842B7B74425D9F6AD08E /* ext_poly2tri */;
+			productType = "com.apple.product-type.library.static";
+		};
+		49B226ED0C8D4A5EB324980F /* ext_tinyxml2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77B681B3D7AA404DA7A08722 /* Build configuration list for PBXNativeTarget "ext_tinyxml2" */;
+			buildPhases = (
+				490B908DEB134DDAA0A2B9E6 /* Sources */,
+				312D1D725BE040D2BAC6CBC2 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ext_tinyxml2;
+			productName = ext_tinyxml2;
+			productReference = BD28464ABEC84D7E95E6504D /* ext_tinyxml2 */;
+			productType = "com.apple.product-type.library.static";
+		};
+		4FF8FFFE771B4AA492199675 /* ext_xxtea */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 340386310F4A4558929CC436 /* Build configuration list for PBXNativeTarget "ext_xxtea" */;
+			buildPhases = (
+				3E54C4B13C1A40828C0657F0 /* Sources */,
+				D579D1EAF1374ADD91DA0A4D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ext_xxtea;
+			productName = ext_xxtea;
+			productReference = FEF6B373992D4844A6423B47 /* ext_xxtea */;
+			productType = "com.apple.product-type.library.static";
+		};
+		5D596EC4CFED4B4892C9460D /* ext_unzip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B7C3C6455854F94AF43B554 /* Build configuration list for PBXNativeTarget "ext_unzip" */;
+			buildPhases = (
+				919E7E779DE7461D8793742C /* Sources */,
+				70F6660D0EF64E8087A096D7 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ext_unzip;
+			productName = ext_unzip;
+			productReference = 341C1387E477433A86041DC9 /* ext_unzip */;
+			productType = "com.apple.product-type.library.static";
+		};
+		708218765A3442A1A519BE8A /* ext_convertUTF */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1438F079EF814D43BBAF6467 /* Build configuration list for PBXNativeTarget "ext_convertUTF" */;
+			buildPhases = (
+				8A4C31D353E34D33ABAF2597 /* Sources */,
+				704A1DD216BF4193A3F1177F /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ext_convertUTF;
+			productName = ext_convertUTF;
+			productReference = E95BF660EE7548E6A87FF6D3 /* ext_convertUTF */;
+			productType = "com.apple.product-type.library.static";
+		};
+		85B028926927404D807C4663 /* ext_edtaa3func */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE12CC9E8C944D7F9C38B962 /* Build configuration list for PBXNativeTarget "ext_edtaa3func" */;
+			buildPhases = (
+				001C873A85F6418E972E8B77 /* Sources */,
+				9ABB7F8285004A5E9141875A /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ext_edtaa3func;
+			productName = ext_edtaa3func;
+			productReference = D5D7859D14FD4F4FA1F73757 /* ext_edtaa3func */;
+			productType = "com.apple.product-type.library.static";
+		};
+		CA3C0D90DBF84C6FB7A7AA95 /* ext_clipper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD4DE0EED9334948BD587880 /* Build configuration list for PBXNativeTarget "ext_clipper" */;
+			buildPhases = (
+				0E779FAF69684291A9CD7074 /* Sources */,
+				26A7D65F92C24A66A03B2D87 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ext_clipper;
+			productName = ext_clipper;
+			productReference = EA9C83B7734A4B6692C6242B /* ext_clipper */;
+			productType = "com.apple.product-type.library.static";
+		};
+		D6752A69DF1D429F98302D45 /* ext_recast */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4954B80EE2814B17BD5D6EAD /* Build configuration list for PBXNativeTarget "ext_recast" */;
+			buildPhases = (
+				949F796ACC824F1685033C83 /* Sources */,
+				A04A675F527E4445BB648DE2 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ext_recast;
+			productName = ext_recast;
+			productReference = 3316F5C7B09A4FCEADAE1C6D /* ext_recast */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6484F7B76B854ACC90E91102 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1530;
+			};
+			buildConfigurationList = B3DFA33A1519441FBD877428 /* Build configuration list for PBXProject "external" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				B06DBC341E2B43D8B7C0ECB3 /* Debug */,
+				78BEE9B11C3F49D4A8772FA1 /* Release */,
+				E5BFF1E7919F4AA1A429B9DA /* MinSizeRel */,
+				2FBD480570114B4284DBF3E3 /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 8FEDF22A9E0D499FB5D47D99;
+			projectDirPath = /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external;
+			projectRoot = "";
+			targets = (
+				BFCF397A5ED14A6A8C98BAC7 /* ALL_BUILD */,
+				3EB409B00B6D478987FF6694 /* ZERO_CHECK */,
+				CA3C0D90DBF84C6FB7A7AA95 /* ext_clipper */,
+				708218765A3442A1A519BE8A /* ext_convertUTF */,
+				85B028926927404D807C4663 /* ext_edtaa3func */,
+				1DFCDEC7B6E24E199116A913 /* ext_md5 */,
+				45A19E21AFCA462B9D4E8CE9 /* ext_poly2tri */,
+				D6752A69DF1D429F98302D45 /* ext_recast */,
+				49B226ED0C8D4A5EB324980F /* ext_tinyxml2 */,
+				5D596EC4CFED4B4892C9460D /* ext_unzip */,
+				0DA3093D300F4AAD8FBF6A44 /* ext_xxhash */,
+				4FF8FFFE771B4AA492199675 /* ext_xxtea */,
+				19EFF5FF315F4E4293457292 /* external */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3C0110FC8322DE7E50886E21 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		9B50530E35CC49C82C2FACCF = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		A3A530CE995EC3120C10D763 /* Generate CMakeFiles/ZERO_CHECK */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ZERO_CHECK";
+			outputPaths = (
+/Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/engine/external/CMakeFiles/ZERO_CHECK			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/engine/external
+  make -f /Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/engine/external/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/engine/external
+  make -f /Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/engine/external/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/engine/external
+  make -f /Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/engine/external/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/engine/external
+  make -f /Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/engine/external/CMakeScripts/ReRunCMake.make
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		BB79B2A7A08DE714A5A0C8E1 /* Generate CMakeFiles/ALL_BUILD */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ALL_BUILD";
+			outputPaths = (
+/Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/engine/external/CMakeFiles/ALL_BUILD			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/engine/external
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/engine/external
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/engine/external
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/engine/external
+  echo Build\\ all\\ projects
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		001C873A85F6418E972E8B77 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4202E3F8AF4C48CD93B6E820 /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/edtaa3func/edtaa3func.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00A5FD2B01394B86BE66E237 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AA73DF665DC496D90FCBE38 /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/md5/md5.c */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E779FAF69684291A9CD7074 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11919984E987423282EC60F2 /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/clipper/clipper.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E54C4B13C1A40828C0657F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				919E2ED6D34648FDB60CA71B /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/xxtea/xxtea.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		490B908DEB134DDAA0A2B9E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C33DD3C64B145CDB70B2F1F /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/tinyxml2/tinyxml2.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B54F51D4FC94D22B4D62BC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C28BB92410C1475EB7189085 /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/poly2tri/common/shapes.cc */,
+				4F1C066E90934315A4000159 /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/poly2tri/sweep/advancing_front.cc */,
+				2B3BDF3F55244E7CADEEB2EE /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/poly2tri/sweep/cdt.cc */,
+				1C39AB15E5FA4C25AE9A3940 /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/poly2tri/sweep/sweep.cc */,
+				C477DC604C3E460D96EA6954 /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/poly2tri/sweep/sweep_context.cc */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B7B320E4D7B4EFF8B794176 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8061AD5B8D740B4BA8CD812 /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/xxhash/xxhash.c */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A4C31D353E34D33ABAF2597 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EDB97904B8F40269C544A62 /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/ConvertUTF/ConvertUTF.c */,
+				6EE7D18D3ECF4D16A7A1B45D /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/ConvertUTF/ConvertUTFWrapper.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		919E7E779DE7461D8793742C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5BA3AE2EF254B9BA3F72567 /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/unzip/ioapi.cpp */,
+				06C49C94F3294325AEE3BA99 /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/unzip/ioapi_mem.cpp */,
+				6855182E949C4283A5E10CC4 /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/unzip/unzip.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		949F796ACC824F1685033C83 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F6A53D9F26B440CB570FC99 /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/recast/DebugUtils/DebugDraw.cpp */,
+				CDBCA5035CC34E9089502740 /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/recast/DebugUtils/DetourDebugDraw.cpp */,
+				BD88EE353DF84640B438AD64 /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/recast/Detour/DetourAlloc.cpp */,
+				2FDC636CCF0D402090B0122D /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/recast/Detour/DetourCommon.cpp */,
+				74816719CFC84B27969B3C99 /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/recast/Detour/DetourNavMesh.cpp */,
+				7D1829E88AC746C6BC98D878 /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/recast/Detour/DetourNavMeshBuilder.cpp */,
+				6ECA7B30034E47D1AA03CCE2 /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/recast/Detour/DetourNavMeshQuery.cpp */,
+				722178EA769446B0A1A34226 /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/recast/Detour/DetourNode.cpp */,
+				9EF098E1A1D84C8BB193E193 /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/recast/DetourCrowd/DetourCrowd.cpp */,
+				20EFD9FD541B4CBFB3B7B6DF /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/recast/DetourCrowd/DetourLocalBoundary.cpp */,
+				777BC5813C474F43B281C6AA /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/recast/DetourCrowd/DetourObstacleAvoidance.cpp */,
+				00CD1DDC59454D56A3EAB3D9 /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/recast/DetourCrowd/DetourPathCorridor.cpp */,
+				71BE3E39C73B403C8304331F /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/recast/DetourCrowd/DetourPathQueue.cpp */,
+				F4A081F359F64AC5850D5AD3 /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/recast/DetourCrowd/DetourProximityGrid.cpp */,
+				8B69C7E104214E988F07C11B /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/recast/DetourTileCache/DetourTileCache.cpp */,
+				11ED4453F95C46919A99A7D4 /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/recast/DetourTileCache/DetourTileCacheBuilder.cpp */,
+				B1350ED0BD894356BAD7C11B /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/recast/fastlz/fastlz.c */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BED4BFA656584AD2B282B63B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D419E6CF92BA4716B00FD307 /* /Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/empty.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		08A0B3F16A4D48A59487EC6F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D6752A69DF1D429F98302D45 /* ext_recast */;
+			targetProxy = E7DA7EA3AA40481AABBA0017 /* PBXContainerItemProxy */;
+		};
+		0F9FAFF8484649EEAE1E7954 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3EB409B00B6D478987FF6694 /* ZERO_CHECK */;
+			targetProxy = 370BDB8E3FE94EBAAC34FC62 /* PBXContainerItemProxy */;
+		};
+		15E9371224344D8884EC0D7A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0DA3093D300F4AAD8FBF6A44 /* ext_xxhash */;
+			targetProxy = F94EE9540571456E9BC0A7F9 /* PBXContainerItemProxy */;
+		};
+		1B64BDCE62924407A2ED4A48 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3EB409B00B6D478987FF6694 /* ZERO_CHECK */;
+			targetProxy = BADA50BE05664BACBD6E1F1B /* PBXContainerItemProxy */;
+		};
+		2980BF307E574DEA8739CE70 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 19EFF5FF315F4E4293457292 /* external */;
+			targetProxy = 8F1EF858C5654B288473DE83 /* PBXContainerItemProxy */;
+		};
+		2C3175B24CCC418E8878A293 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 45A19E21AFCA462B9D4E8CE9 /* ext_poly2tri */;
+			targetProxy = 9F8F95E0053D45DAA0CF2FA9 /* PBXContainerItemProxy */;
+		};
+		34384769FA234A5993551FD1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5D596EC4CFED4B4892C9460D /* ext_unzip */;
+			targetProxy = B89B1E2D2B8F4F198FEC35C0 /* PBXContainerItemProxy */;
+		};
+		3A5B22F1931A4CFB8F2CBE99 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4FF8FFFE771B4AA492199675 /* ext_xxtea */;
+			targetProxy = 4B5B41DD5F224CB1949F1840 /* PBXContainerItemProxy */;
+		};
+		40532E6943F54E1DA9B2377B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 49B226ED0C8D4A5EB324980F /* ext_tinyxml2 */;
+			targetProxy = 1E4631876F2E4054A1A4F861 /* PBXContainerItemProxy */;
+		};
+		4B01D2E4962A462F85D86973 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 45A19E21AFCA462B9D4E8CE9 /* ext_poly2tri */;
+			targetProxy = 3FA0FB2FD3AA4E7F894A878D /* PBXContainerItemProxy */;
+		};
+		78964A18F0DC45A0B2677BF4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1DFCDEC7B6E24E199116A913 /* ext_md5 */;
+			targetProxy = 10EC0BE71844497CB3A724D3 /* PBXContainerItemProxy */;
+		};
+		7EF8A538E9C64C86B15C1994 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4FF8FFFE771B4AA492199675 /* ext_xxtea */;
+			targetProxy = 8D8C0B843B2644EDAABF0237 /* PBXContainerItemProxy */;
+		};
+		858C596C1D8947E7BE5BD674 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1DFCDEC7B6E24E199116A913 /* ext_md5 */;
+			targetProxy = F36C708F6B21450FB13E9F45 /* PBXContainerItemProxy */;
+		};
+		A05335A401B3439EAF3F7526 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 49B226ED0C8D4A5EB324980F /* ext_tinyxml2 */;
+			targetProxy = BD6625A567774D509F8ADD20 /* PBXContainerItemProxy */;
+		};
+		A9BB30CA4D49425FBCC7A761 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA3C0D90DBF84C6FB7A7AA95 /* ext_clipper */;
+			targetProxy = CB96AE118D934303B45657BB /* PBXContainerItemProxy */;
+		};
+		C3787BBE2504427C862BA795 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 85B028926927404D807C4663 /* ext_edtaa3func */;
+			targetProxy = 704DF04BDC6B411DADCD9491 /* PBXContainerItemProxy */;
+		};
+		C71577E7BE5F4EA291E6AB4D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 708218765A3442A1A519BE8A /* ext_convertUTF */;
+			targetProxy = 286AB2B9FFDB497B9B186CDA /* PBXContainerItemProxy */;
+		};
+		C8740511649F40C999A3BA81 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0DA3093D300F4AAD8FBF6A44 /* ext_xxhash */;
+			targetProxy = 88651D24B7434FDCB80C126C /* PBXContainerItemProxy */;
+		};
+		CC20E40D092F4DB4ADC88F9C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 708218765A3442A1A519BE8A /* ext_convertUTF */;
+			targetProxy = 2BB9A3463B2E4DCE947F09A0 /* PBXContainerItemProxy */;
+		};
+		CDCBE399BEFF4CB68ED74DC8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 85B028926927404D807C4663 /* ext_edtaa3func */;
+			targetProxy = F928CB90EE854F05B19AB6AC /* PBXContainerItemProxy */;
+		};
+		CE2DC80F7CCD4C269E349571 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA3C0D90DBF84C6FB7A7AA95 /* ext_clipper */;
+			targetProxy = 509EC4FE12D04C5D932451DD /* PBXContainerItemProxy */;
+		};
+		E494AF88368A46C68C675102 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5D596EC4CFED4B4892C9460D /* ext_unzip */;
+			targetProxy = 6CBF0852153D46599C45E124 /* PBXContainerItemProxy */;
+		};
+		F920651F03BC4999A720BC6E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D6752A69DF1D429F98302D45 /* ext_recast */;
+			targetProxy = D12799FDDB8546459D886E51 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		00D3BF060D0F4800973140EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/lib/Release;
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/poly2tri/..,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_poly2tri;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/build/ext_poly2tri.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		0521D52B4CA64667A2AAC13C /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = /Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/build;
+			};
+			name = RelWithDebInfo;
+		};
+		0566500B5EE94B429F585A73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = /Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/build;
+			};
+			name = Release;
+		};
+		06F82CE9E628488F8B4F9D78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SYMROOT = /Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/build;
+			};
+			name = Debug;
+		};
+		084F854FAFB64E40AC97AF97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/lib/Debug;
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/tinyxml2/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "   '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_tinyxml2;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/build/ext_tinyxml2.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		0B274AB5B82648E280DC0A9A /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/lib/MinSizeRel;
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/xxtea/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_xxtea;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/build/ext_xxtea.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		0C3F94FC0FD7464FB1AD567B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/lib/Debug;
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/unzip/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "   '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_unzip;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/build/ext_unzip.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		115FEA036DFF47F0A6E48C76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/lib/Debug;
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/recast/..,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = ("   '-std=gnu99' ","$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = "   '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_recast;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/build/ext_recast.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		11D5311DEB084681BADE8FD1 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/lib/RelWithDebInfo;
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/md5/..,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = ("       -DNDEBUG '-std=gnu99' ","$(inherited)");
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_md5;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/build/ext_md5.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		123AB03249F743FD914D181D /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/lib/MinSizeRel;
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/xxhash/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = ("    -DNDEBUG '-std=gnu99' ","$(inherited)");
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_xxhash;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/build/ext_xxhash.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		133A314E0DE24819A7D8AA9D /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/lib/MinSizeRel;
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/edtaa3func/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_edtaa3func;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/build/ext_edtaa3func.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		15E156F991AC4BC1BE6C31A9 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/lib/MinSizeRel;
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",LWS_WITH_LIBUV,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/recast/..,/Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/tinyxml2/.,/Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/xxhash/.,/Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/xxtea/.,/Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/clipper/.,/Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/edtaa3func/.,/Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/ConvertUTF/.,/Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/poly2tri/..,/Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/md5/..,/Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/unzip/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = external;
+				SECTORDER_FLAGS = "";
+				SYSTEM_HEADER_SEARCH_PATHS = (/Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/Box2D/include,/Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/chipmunk/include,/Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/freetype2/include/ios/freetype2,/Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/bullet/include,/Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/bullet/include/bullet,/Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/jpeg/include/ios,/Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/openssl/include/ios,/Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/uv/include,/Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/webp/include/ios,/Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/websockets/include/ios,/Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/curl/include/ios,/Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/png/include/ios,"/Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/glsl-optimizer/include","$(inherited)");
+				TARGET_TEMP_DIR = "/Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/build/external.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		24A277009DCD4361BD2A95A1 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/lib/RelWithDebInfo;
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/edtaa3func/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_edtaa3func;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/build/ext_edtaa3func.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		298EC15FBA5349FC8DE304DA /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/lib/RelWithDebInfo;
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/poly2tri/..,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_poly2tri;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/build/ext_poly2tri.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		2A3D48551FD14509B5488935 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/lib/Release;
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/recast/..,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = ("    -DNDEBUG '-std=gnu99' ","$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_recast;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/build/ext_recast.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		2B063F00A0A94280A2BCBCC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		34AC29D9C0D049429A96E51C /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		3F8F493EA62A43379F64F7A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/lib/Release;
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",LWS_WITH_LIBUV,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/recast/..,/Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/tinyxml2/.,/Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/xxhash/.,/Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/xxtea/.,/Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/clipper/.,/Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/edtaa3func/.,/Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/ConvertUTF/.,/Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/poly2tri/..,/Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/md5/..,/Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/unzip/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = external;
+				SECTORDER_FLAGS = "";
+				SYSTEM_HEADER_SEARCH_PATHS = (/Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/Box2D/include,/Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/chipmunk/include,/Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/freetype2/include/ios/freetype2,/Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/bullet/include,/Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/bullet/include/bullet,/Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/jpeg/include/ios,/Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/openssl/include/ios,/Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/uv/include,/Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/webp/include/ios,/Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/websockets/include/ios,/Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/curl/include/ios,/Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/png/include/ios,"/Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/glsl-optimizer/include","$(inherited)");
+				TARGET_TEMP_DIR = "/Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/build/external.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		49F4867FB1564F38A5FAE31B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/lib/Debug;
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/clipper/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "   '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_clipper;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/build/ext_clipper.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		4C42302AFDB74B58860E1625 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/lib/MinSizeRel;
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/poly2tri/..,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_poly2tri;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/build/ext_poly2tri.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		4FFBAF205A5E40189B119C7D /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/lib/RelWithDebInfo;
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/tinyxml2/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_tinyxml2;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/build/ext_tinyxml2.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		561AEB9F4A0B42D1AB0FC6BE /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/lib/RelWithDebInfo;
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",LWS_WITH_LIBUV,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/recast/..,/Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/tinyxml2/.,/Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/xxhash/.,/Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/xxtea/.,/Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/clipper/.,/Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/edtaa3func/.,/Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/ConvertUTF/.,/Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/poly2tri/..,/Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/md5/..,/Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/unzip/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = external;
+				SECTORDER_FLAGS = "";
+				SYSTEM_HEADER_SEARCH_PATHS = (/Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/Box2D/include,/Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/chipmunk/include,/Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/freetype2/include/ios/freetype2,/Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/bullet/include,/Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/bullet/include/bullet,/Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/jpeg/include/ios,/Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/openssl/include/ios,/Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/uv/include,/Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/webp/include/ios,/Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/websockets/include/ios,/Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/curl/include/ios,/Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/png/include/ios,"/Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/glsl-optimizer/include","$(inherited)");
+				TARGET_TEMP_DIR = "/Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/build/external.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		56D986FDAFF7413C906F6B6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/lib/Release;
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/unzip/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_unzip;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/build/ext_unzip.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		5F3E4207FCFC492FAE6B3033 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/lib/Release;
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/xxhash/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = ("    -DNDEBUG '-std=gnu99' ","$(inherited)");
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_xxhash;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/build/ext_xxhash.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		620F5E150829492B9AE39F40 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		675965370C544A3F90B8CC9C /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/lib/RelWithDebInfo;
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/ConvertUTF/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = ("       -DNDEBUG '-std=gnu99' ","$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_convertUTF;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/build/ext_convertUTF.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		6CDD5080E9B749959EC84B6E /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/lib/MinSizeRel;
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/unzip/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_unzip;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/build/ext_unzip.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		6CED126D916A4DFCB80B7534 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/lib/Release;
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/xxtea/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_xxtea;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/build/ext_xxtea.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		71F8BC5C3CC243FD89252FC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/lib/Release;
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/md5/..,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = ("    -DNDEBUG '-std=gnu99' ","$(inherited)");
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_md5;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/build/ext_md5.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		720BC051246743608CBB8CD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/lib/Debug;
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/edtaa3func/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "   '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_edtaa3func;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/build/ext_edtaa3func.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		74A9CFF71885402CA9C24347 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/lib/Release;
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/tinyxml2/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_tinyxml2;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/build/ext_tinyxml2.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		79457C9270324220A7E871D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		7D7B2EA2FDB047459E01DBB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/lib/Release;
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/edtaa3func/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_edtaa3func;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/build/ext_edtaa3func.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		84E0D345D6AB4300BBF320C4 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/lib/MinSizeRel;
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/ConvertUTF/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = ("    -DNDEBUG '-std=gnu99' ","$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_convertUTF;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/build/ext_convertUTF.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		853ED8C9F08A4EB5A91D77F6 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/lib/MinSizeRel;
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/md5/..,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = ("    -DNDEBUG '-std=gnu99' ","$(inherited)");
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_md5;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/build/ext_md5.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		8C7EBA73449F4B2DA3049104 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		90DBD0B12C9641ADAA571626 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/lib/MinSizeRel;
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/clipper/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_clipper;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/build/ext_clipper.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		95668FE069A646CBBB733EA3 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/lib/RelWithDebInfo;
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/xxtea/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_xxtea;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/build/ext_xxtea.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		989478D5CE414C099D3E72C3 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		A603513CFD2F426BAD2624B7 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/lib/MinSizeRel;
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/tinyxml2/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_tinyxml2;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/build/ext_tinyxml2.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		B00B12CC5113463C8EE1F387 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/lib/RelWithDebInfo;
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/xxhash/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = ("       -DNDEBUG '-std=gnu99' ","$(inherited)");
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_xxhash;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/build/ext_xxhash.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		B87DB49E1E4748CCB0F46D39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/lib/Release;
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/ConvertUTF/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = ("    -DNDEBUG '-std=gnu99' ","$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_convertUTF;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/build/ext_convertUTF.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		C0AA7CB870984542BE852F8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/lib/Debug;
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",LWS_WITH_LIBUV,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/recast/..,/Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/tinyxml2/.,/Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/xxhash/.,/Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/xxtea/.,/Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/clipper/.,/Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/edtaa3func/.,/Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/ConvertUTF/.,/Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/poly2tri/..,/Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/md5/..,/Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/unzip/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "   '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = external;
+				SECTORDER_FLAGS = "";
+				SYSTEM_HEADER_SEARCH_PATHS = (/Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/Box2D/include,/Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/chipmunk/include,/Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/freetype2/include/ios/freetype2,/Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/bullet/include,/Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/bullet/include/bullet,/Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/jpeg/include/ios,/Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/openssl/include/ios,/Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/uv/include,/Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/webp/include/ios,/Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/websockets/include/ios,/Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/curl/include/ios,/Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/png/include/ios,"/Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/glsl-optimizer/include","$(inherited)");
+				TARGET_TEMP_DIR = "/Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/build/external.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		C4B4A997453E4636B3CE237C /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/lib/RelWithDebInfo;
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/recast/..,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = ("       -DNDEBUG '-std=gnu99' ","$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_recast;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/build/ext_recast.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		C8233C87E5844324AC124CE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		C93E1828FF554C5BB1E57120 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/lib/Debug;
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/md5/..,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = ("   '-std=gnu99' ","$(inherited)");
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_md5;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/build/ext_md5.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		CA78144CC511481EB0BC16FC /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/lib/RelWithDebInfo;
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/clipper/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_clipper;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/build/ext_clipper.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		D67CC7B712BE4FFDBE64DC8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/lib/Debug;
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/poly2tri/..,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "   '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_poly2tri;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/build/ext_poly2tri.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		DCDE54D487754ADDAECD2942 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/lib/Debug;
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/xxtea/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "   '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_xxtea;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/build/ext_xxtea.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		DF591FC1E09F497A8FB47C9E /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/lib/MinSizeRel;
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/recast/..,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = ("    -DNDEBUG '-std=gnu99' ","$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_recast;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/build/ext_recast.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		E8FE274C7C5B4DE48C6FC49D /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/lib/RelWithDebInfo;
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/unzip/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_unzip;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/build/ext_unzip.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		E97BCF8EB82640A59C2D234D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/lib/Debug;
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/ConvertUTF/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = ("   '-std=gnu99' ","$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = "   '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_convertUTF;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/build/ext_convertUTF.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		EC60B625C2B643A49966CD9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		EDE779AC4CF5418B8315F092 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = /Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/build;
+			};
+			name = MinSizeRel;
+		};
+		F7B968825E794A5685CBA2DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/lib/Debug;
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/xxhash/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = ("   '-std=gnu99' ","$(inherited)");
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_xxhash;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/build/ext_xxhash.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		F8AAE6D2287F440FB9E73934 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/lib/Release;
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/parsonlam/Documents/casino_demo/Casino_Demo/cocos2d/external/clipper/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_clipper;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/parsonlam/Documents/casino_demo/Casino_Demo/proj.ios_mac/ios/build/ext_clipper.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1438F079EF814D43BBAF6467 /* Build configuration list for PBXNativeTarget "ext_convertUTF" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E97BCF8EB82640A59C2D234D /* Debug */,
+				B87DB49E1E4748CCB0F46D39 /* Release */,
+				84E0D345D6AB4300BBF320C4 /* MinSizeRel */,
+				675965370C544A3F90B8CC9C /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		340386310F4A4558929CC436 /* Build configuration list for PBXNativeTarget "ext_xxtea" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCDE54D487754ADDAECD2942 /* Debug */,
+				6CED126D916A4DFCB80B7534 /* Release */,
+				0B274AB5B82648E280DC0A9A /* MinSizeRel */,
+				95668FE069A646CBBB733EA3 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		3BC0137AC57945DF90F37FD9 /* Build configuration list for PBXNativeTarget "ext_md5" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C93E1828FF554C5BB1E57120 /* Debug */,
+				71F8BC5C3CC243FD89252FC8 /* Release */,
+				853ED8C9F08A4EB5A91D77F6 /* MinSizeRel */,
+				11D5311DEB084681BADE8FD1 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		3DFCA209E0704AC9884FA4B3 /* Build configuration list for PBXNativeTarget "ext_xxhash" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7B968825E794A5685CBA2DF /* Debug */,
+				5F3E4207FCFC492FAE6B3033 /* Release */,
+				123AB03249F743FD914D181D /* MinSizeRel */,
+				B00B12CC5113463C8EE1F387 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		4954B80EE2814B17BD5D6EAD /* Build configuration list for PBXNativeTarget "ext_recast" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				115FEA036DFF47F0A6E48C76 /* Debug */,
+				2A3D48551FD14509B5488935 /* Release */,
+				DF591FC1E09F497A8FB47C9E /* MinSizeRel */,
+				C4B4A997453E4636B3CE237C /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		53CB7F35BA1545018CBBA5BD /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8233C87E5844324AC124CE3 /* Debug */,
+				79457C9270324220A7E871D1 /* Release */,
+				8C7EBA73449F4B2DA3049104 /* MinSizeRel */,
+				620F5E150829492B9AE39F40 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		6DEFF0E3FCE4463CB1395237 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC60B625C2B643A49966CD9C /* Debug */,
+				2B063F00A0A94280A2BCBCC4 /* Release */,
+				34AC29D9C0D049429A96E51C /* MinSizeRel */,
+				989478D5CE414C099D3E72C3 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		77B681B3D7AA404DA7A08722 /* Build configuration list for PBXNativeTarget "ext_tinyxml2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				084F854FAFB64E40AC97AF97 /* Debug */,
+				74A9CFF71885402CA9C24347 /* Release */,
+				A603513CFD2F426BAD2624B7 /* MinSizeRel */,
+				4FFBAF205A5E40189B119C7D /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		7B7C3C6455854F94AF43B554 /* Build configuration list for PBXNativeTarget "ext_unzip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C3F94FC0FD7464FB1AD567B /* Debug */,
+				56D986FDAFF7413C906F6B6B /* Release */,
+				6CDD5080E9B749959EC84B6E /* MinSizeRel */,
+				E8FE274C7C5B4DE48C6FC49D /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		AD4DE0EED9334948BD587880 /* Build configuration list for PBXNativeTarget "ext_clipper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49F4867FB1564F38A5FAE31B /* Debug */,
+				F8AAE6D2287F440FB9E73934 /* Release */,
+				90DBD0B12C9641ADAA571626 /* MinSizeRel */,
+				CA78144CC511481EB0BC16FC /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		B3DFA33A1519441FBD877428 /* Build configuration list for PBXProject "external" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06F82CE9E628488F8B4F9D78 /* Debug */,
+				0566500B5EE94B429F585A73 /* Release */,
+				EDE779AC4CF5418B8315F092 /* MinSizeRel */,
+				0521D52B4CA64667A2AAC13C /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C8978009CF9948848C2D448E /* Build configuration list for PBXNativeTarget "external" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0AA7CB870984542BE852F8A /* Debug */,
+				3F8F493EA62A43379F64F7A8 /* Release */,
+				15E156F991AC4BC1BE6C31A9 /* MinSizeRel */,
+				561AEB9F4A0B42D1AB0FC6BE /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D120738082244164A715E5A3 /* Build configuration list for PBXNativeTarget "ext_poly2tri" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D67CC7B712BE4FFDBE64DC8F /* Debug */,
+				00D3BF060D0F4800973140EF /* Release */,
+				4C42302AFDB74B58860E1625 /* MinSizeRel */,
+				298EC15FBA5349FC8DE304DA /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		DE12CC9E8C944D7F9C38B962 /* Build configuration list for PBXNativeTarget "ext_edtaa3func" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				720BC051246743608CBB8CD3 /* Debug */,
+				7D7B2EA2FDB047459E01DBB7 /* Release */,
+				133A314E0DE24819A7D8AA9D /* MinSizeRel */,
+				24A277009DCD4361BD2A95A1 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6484F7B76B854ACC90E91102 /* Project object */;
+}
