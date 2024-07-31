@@ -1,3 +1,5 @@
+![](https://github.com/ParsonLKF/chip_demo/blob/main/demo.gif)
+
 Environment
 - Android Studio Iguana | 2023.2.1 Patch 2
 - Build #AI-232.10300.40.2321.11668458, built on April 4, 2024
